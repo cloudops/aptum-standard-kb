@@ -3,9 +3,9 @@ categories:
   icon: fa fa-globe
   featured: false
   articles:
-      - cloud.ca-in-a-nutshell.md
-      - general-cloudmc_home_page.md
-      - main-cloudmc-entities.md
+      #- cloud.ca-in-a-nutshell.md
+      #- general-cloudmc_home_page.md
+      #- main-cloudmc-entities.md
       - environments-to-organize-workloads-and-users.md
       - need-more-help.md
 #- category: cloudstack-compute-service
@@ -112,24 +112,24 @@ categories:
 - category: administration
   icon: fa fa-wrench
   articles:
-      - branding.md
+    #  - branding.md
       - manage-users.md
-      - native-authentication-policies.md
-      - rbac.md
-      - rbac-use-cases-basic.md
-      - rbac-use-cases-advanced.md
-      - openid-connect.md
+#      - native-authentication-policies.md
+#      - rbac.md
+#      - rbac-use-cases-basic.md
+#      - rbac-use-cases-advanced.md
+#      - openid-connect.md
 - category: how-to
   icon: fa fa-question
   articles:
       - enable-2fa.md  
       - display-dates-in-your-preferred-time-zone.md
-      - how-to-cloudmc-api-key.md
+     # - how-to-cloudmc-api-key.md
       - how-to-obtain-service-api-keys.md
       - access_your_notifications.md
-#- category: automation
-#  icon: fa fa-retweet
-#  articles:
+- category: automation
+  icon: fa fa-retweet
+  articles:
 #      - cloudmc_rest_api.md
 #      - deploy-virtual-machine-using-terraform.md
 #      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
