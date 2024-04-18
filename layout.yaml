@@ -1,109 +1,110 @@
 categories:
 - category: basic-concepts
   icon: fa fa-globe
-  featured: true
+  featured: false
   articles:
       - cloud.ca-in-a-nutshell.md
       - general-cloudmc_home_page.md
       - main-cloudmc-entities.md
       - environments-to-organize-workloads-and-users.md
       - need-more-help.md
-- category: cloudstack-compute-service
-  icon: fa fa-cloud
-  articles:
-      - cloudstack-working-with-instances.md
-      - cloudstack-what-is-a-vpc.md
-      - cloudstack-add-storage-to-instance.md
-      - cloudstack-working-with-ssh-keys.md
-      - cloudstack-configure-load-balancing.md
-      - cloudstack-configure-port-forwarding.md
-      - cloudstack-securing-your-network.md
-      - cloudstack-enable-static-nat.md
-      - cloudstack-import-iso.md
-      - cloudstack-working-with-vpcs.md
-      - cloudstack-working-with-cloudstack-compute-apis.md
-      - cloudstack-working-with-snapshots.md
-      - cloudstack-working-with-instance-templates.md
-      - cloudstack-affinity_groups.md
-      - cloudstack-add_an_affinity_group.md
-      - cloudstack-create-site-to-site-vpn-on-vpc.md
-      - cloudstack-install-and-config-cloudmonkey.md
-      - cloudstack-kernel-upgrade-on-ubuntu-debian.md
-      - cloudstack-move-instance-to-different-vpc.md
-      - cloudstack-force-reboot-an-instance.md
-      - cloudstack-private_gateways.md
-- category: gcp-compute-service
-  icon: fa fa-cloud
-  articles:
-      - gcp-working-with-instances.md
-      - gcp-working-with-disks.md
-      - gcp-instance-groups.md
-      - gcp-health-check.md
-      - gcp-ssl-certs.md
-      - gcp-load-balancing.md
+#- category: cloudstack-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - cloudstack-working-with-instances.md
+#      - cloudstack-what-is-a-vpc.md
+#      - cloudstack-add-storage-to-instance.md
+#      - cloudstack-working-with-ssh-keys.md
+#      - cloudstack-configure-load-balancing.md
+#      - cloudstack-configure-port-forwarding.md
+#      - cloudstack-securing-your-network.md
+#      - cloudstack-enable-static-nat.md
+#      - cloudstack-import-iso.md
+#      - cloudstack-working-with-vpcs.md
+#      - cloudstack-working-with-cloudstack-compute-apis.md
+#      - cloudstack-working-with-snapshots.md
+#      - cloudstack-working-with-instance-templates.md
+#      - cloudstack-affinity_groups.md
+#      - cloudstack-add_an_affinity_group.md
+#      - cloudstack-create-site-to-site-vpn-on-vpc.md
+#      - cloudstack-install-and-config-cloudmonkey.md
+#      - cloudstack-kernel-upgrade-on-ubuntu-debian.md
+#      - cloudstack-move-instance-to-different-vpc.md
+#      - cloudstack-force-reboot-an-instance.md
+#      - cloudstack-private_gateways.md
+#- category: gcp-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - gcp-working-with-instances.md
+#      - gcp-working-with-disks.md
+#      - gcp-instance-groups.md
+#      - gcp-health-check.md
+#      - gcp-ssl-certs.md
+#      - gcp-load-balancing.md
 - category: azure-compute-service
   icon: fa fa-cloud
+  featured: true
   articles:
       - azure-service-overview.md
       - azure-instances.md
       - azure-working-with-instances.md
       - azure-disks.md
       - azure-working-with-disks.md
-- category: stackpath-service
-  icon: fa fa-cloud
-  articles:
-      - stackpath-overview-workloads.md
-      - stackpath-managing-workloads.md
-      - stackpath-create-a-workload.md
-      - stackpath-images.md
-      - stackpath-connect-to-vm-via-ssh.md
-      - stackpath-connect-to-vm-console.md
-      - stackpath-connect-to-container.md
-      - stackpath-enable-remote-mgt.md
-      - stackpath-sites-overview.md
-      - stackpath-sites-cdn.md
-      - stackpath-sites-lifetimes-ttls.md
-      - stackpath-sites-cache-keys.md
-      - stackpath-sites-cdn-features.md
-      - stackpath-sites-sslcert.md
-      - stackpath-sites-waf.md
-      - stackpath-sites-scripts.md
-- category: aws-compute-service
-  icon: fa fa-cloud
-  articles:
-      - aws_service_overview.md
-      - aws-compute.md
-      - aws-instances.md
-      - aws-amis.md
-      - aws-volumes.md
-      - aws-networking.md
-      - aws-vpcs.md
-      - aws-subnetworks.md
-      - aws-security_groups.md
-      - aws-object_storage.md
-      - aws-buckets.md
-      - aws-add_a_vpc.md
-      - aws-add_a_subnetwork.md
-      - aws-add_an_instance.md
-      - aws-add_a_volume.md
-- category: vmware-compute-service
-  icon: fa fa-cloud
-  articles:
-      - vmware-service-overview.md
-      - vmware-networking.md
-      - vmware-virtual-machines.md
-      - vmware-virtual-applications.md
-      - vmware-add-a-network.md
-      - vmware-add-a-virtual-machine.md
-- category: object-storage-service
-  icon: fa fa-hdd-o
-  articles:
-      - what-is-object-storage.md
-      - object-storage-terminology.md
-      - use-s3-api-for-object-storage.md
-      - manage-my-objects-using-the-swift-command-line-client.md
-      - manage-my-objects-using-the-object-storage-api.md
-      - manage-my-objects-using-the-self-service-portal.md
+#- category: stackpath-service
+#  icon: fa fa-cloud
+#  articles:
+#      - stackpath-overview-workloads.md
+#      - stackpath-managing-workloads.md
+#      - stackpath-create-a-workload.md
+#      - stackpath-images.md
+#      - stackpath-connect-to-vm-via-ssh.md
+#      - stackpath-connect-to-vm-console.md
+#      - stackpath-connect-to-container.md
+#      - stackpath-enable-remote-mgt.md
+#      - stackpath-sites-overview.md
+#      - stackpath-sites-cdn.md
+#      - stackpath-sites-lifetimes-ttls.md
+#      - stackpath-sites-cache-keys.md
+#      - stackpath-sites-cdn-features.md
+#      - stackpath-sites-sslcert.md
+#      - stackpath-sites-waf.md
+#      - stackpath-sites-scripts.md
+#- category: aws-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - aws_service_overview.md
+#      - aws-compute.md
+#      - aws-instances.md
+#      - aws-amis.md
+#      - aws-volumes.md
+#      - aws-networking.md
+#      - aws-vpcs.md
+#      - aws-subnetworks.md
+#      - aws-security_groups.md
+#      - aws-object_storage.md
+#      - aws-buckets.md
+#      - aws-add_a_vpc.md
+#      - aws-add_a_subnetwork.md
+#      - aws-add_an_instance.md
+#      - aws-add_a_volume.md
+#- category: vmware-compute-service
+#  icon: fa fa-cloud
+#  articles:
+#      - vmware-service-overview.md
+#      - vmware-networking.md
+#      - vmware-virtual-machines.md
+#      - vmware-virtual-applications.md
+#      - vmware-add-a-network.md
+#      - vmware-add-a-virtual-machine.md
+#- category: object-storage-service
+#  icon: fa fa-hdd-o
+#  articles:
+#      - what-is-object-storage.md
+#      - object-storage-terminology.md
+#      - use-s3-api-for-object-storage.md
+#      - manage-my-objects-using-the-swift-command-line-client.md
+#      - manage-my-objects-using-the-object-storage-api.md
+#      - manage-my-objects-using-the-self-service-portal.md
 - category: reporting
   icon: fa fa-signal
   articles:
@@ -126,16 +127,16 @@ categories:
       - how-to-cloudmc-api-key.md
       - how-to-obtain-service-api-keys.md
       - access_your_notifications.md
-- category: automation
-  icon: fa fa-retweet
-  articles:
-      - cloudmc_rest_api.md
-      - deploy-virtual-machine-using-terraform.md
-      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
-- category: vpn
-  icon: fa fa-shield
-  articles:
-      - cca-using-remote-access.md
-      - cca-client-config-mac.md
-      - cca-client-config-windows.md
-      - cca-client-config-ubuntu.md
+#- category: automation
+#  icon: fa fa-retweet
+#  articles:
+#      - cloudmc_rest_api.md
+#      - deploy-virtual-machine-using-terraform.md
+#      - deploy-a-kubernetes-cluster-with-rancher-2-x.md
+#- category: vpn
+#  icon: fa fa-shield
+#  articles:
+#      - cca-using-remote-access.md
+#      - cca-client-config-mac.md
+#      - cca-client-config-windows.md
+#      - cca-client-config-ubuntu.md
