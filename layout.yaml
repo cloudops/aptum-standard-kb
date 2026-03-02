@@ -10,6 +10,7 @@ categories:
       - need-more-help.md
 - category: cloudstack-compute-service
   icon: fa fa-cloud
+  featured: true
   articles:
       - cloudstack-instances.md
       - cloudstack-add-an-instance.md
@@ -60,6 +61,7 @@ categories:
       - azure-working-with-disks.md
 - category: cloudflare-service
   icon: fa fa-cloud
+  featured: true
   articles:
       - cloudflare-dns.md
       - cloudflare-add-a-domain.md
