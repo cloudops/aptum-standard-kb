@@ -8,30 +8,38 @@ categories:
       #- main-cloudmc-entities.md
       - environments-to-organize-workloads-and-users.md
       - need-more-help.md
-#- category: cloudstack-compute-service
-#  icon: fa fa-cloud
-#  articles:
-#      - cloudstack-working-with-instances.md
-#      - cloudstack-what-is-a-vpc.md
-#      - cloudstack-add-storage-to-instance.md
-#      - cloudstack-working-with-ssh-keys.md
-#      - cloudstack-configure-load-balancing.md
-#      - cloudstack-configure-port-forwarding.md
-#      - cloudstack-securing-your-network.md
-#      - cloudstack-enable-static-nat.md
-#      - cloudstack-import-iso.md
-#      - cloudstack-working-with-vpcs.md
-#      - cloudstack-working-with-cloudstack-compute-apis.md
-#      - cloudstack-working-with-snapshots.md
-#      - cloudstack-working-with-instance-templates.md
-#      - cloudstack-affinity_groups.md
-#      - cloudstack-add_an_affinity_group.md
-#      - cloudstack-create-site-to-site-vpn-on-vpc.md
-#      - cloudstack-install-and-config-cloudmonkey.md
-#      - cloudstack-kernel-upgrade-on-ubuntu-debian.md
-#      - cloudstack-move-instance-to-different-vpc.md
-#      - cloudstack-force-reboot-an-instance.md
-#      - cloudstack-private_gateways.md
+- category: cloudstack-compute-service
+  icon: fa fa-cloud
+  articles:
+      - cloudstack-instances.md
+      - cloudstack-add-an-instance.md
+      - cloudstack-working-with-instances.md
+      - cloudstack-what-is-a-vpc.md
+      - cloudstack-add-storage-to-instance.md
+      - cloudstack-working-with-ssh-keys.md
+      - cloudstack-configure-load-balancing.md
+      - cloudstack-configure-port-forwarding.md
+      - cloudstack-securing-your-network.md
+      - cloudstack-enable-static-nat.md
+      - cloudstack-import-iso.md
+      - cloudstack-working-with-vpcs.md
+      - cloudstack-working-with-cloudstack-compute-apis.md
+      - cloudstack-working-with-snapshots.md
+      - cloudstack-working-with-instance-templates.md
+      - cloudstack-affinity_groups.md
+      - cloudstack-add_an_affinity_group.md
+      - cloudstack-create-site-to-site-vpn-on-vpc.md
+      - cloudstack-install-and-config-cloudmonkey.md
+      - cloudstack-kernel-upgrade-on-ubuntu-debian.md
+      - cloudstack-move-instance-to-different-vpc.md
+      - cloudstack-force-reboot-an-instance.md
+      - cloudstack-private_gateways.md
+      - cloudstack-vpn-using-remote-access.md
+      - cloudstack-vpn-config-mac.md
+      - cloudstack-vpn-config-windows.md
+      - cloudstack-vpn-config-ubuntu.md
+      - cloudstack-deploy-virtual-machine-using-terraform.md
+      - cloudstack-deploy-a-kubernetes-cluster-with-rancher-2-x.md
 #- category: gcp-compute-service
 #  icon: fa fa-cloud
 #  articles:
@@ -50,6 +58,12 @@ categories:
       - azure-working-with-instances.md
       - azure-disks.md
       - azure-working-with-disks.md
+- category: cloudflare-service
+  icon: fa fa-cloud
+  articles:
+      - cloudflare-dns.md
+      - cloudflare-add-a-domain.md
+      - cloudflare-add-a-dns-record.md
 #- category: stackpath-service
 #  icon: fa fa-cloud
 #  articles:

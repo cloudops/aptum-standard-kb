@@ -11,7 +11,7 @@ slug: cloudstack-gestion-de-vpc
 
 Para crear, modificar o eliminar una VPC, una cuenta con el rol *Usuario* debe ser miembro del entorno que contiene la VPC y también tener asignado el rol de entorno *Editor* o *Propietario*. Una cuenta con el rol *Administrador* o superior puede crear, modificar o eliminar VPC en un entorno.
 
-Para obtener más información sobre las VPC, consulte [Qué es una VPC](../cloudstack-compute-service/what-is-a-vpc.md).
+Para obtener más información sobre las VPC, consulte [Qué es una VPC](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
 
 ### Crear una nueva VPC
 
@@ -24,7 +24,7 @@ Para obtener más información sobre las VPC, consulte [Qué es una VPC](../clou
     - **Nombre:** Nombre de la VPC (ej.: *acme-prod-vpc01*).
     - **Descripción:** (Opcional) Descripción de la VPC (ej.: "Sitio A de la red de producción").
     - **CIDR:** El rango de IP que se usará para la VPC. El rango debe ser una red /22.
-    - **Dominio de red:** (Opcional) Nombre de dominio para resolución DNS interna (por ejemplo: *internal.acme.com*). CloudMC agregará este nombre de dominio al archivo */etc/hosts* para nuevas instancias.
+    - **Dominio de red:** (Opcional) Nombre de dominio para resolución DNS interna (por ejemplo: *internal.acme.com*). CloudOps agregará este nombre de dominio al archivo */etc/hosts* para nuevas instancias.
     - **Oferta de VPC:** Elige el nivel de servicio de esta VPC.
     ![Página de agregar una VPC](/assets/working-with-vpcs-2-en.png)
 1. Haz clic en **Aplicar**.
@@ -44,7 +44,7 @@ Para obtener más información sobre las VPC, consulte [Qué es una VPC](../clou
        - **Nivel de equilibrio de carga:** (predeterminado) Incluye las funciones del nivel estándar y también ofrece la capacidad de equilibrar la carga del tráfico en varias instancias dentro de ese nivel, a través de reglas que se aplican en una dirección IP pública. **Nota: Solo un único nivel dentro de una VPC puede tener esta oferta.**
     - **Puerta de enlace:** La dirección IP de la puerta de enlace predeterminada para crear el nivel de red.
     - **Máscara de red:** La máscara de subred del nivel de red que se creará.
-    - **ACL:** lista de control de acceso (ACL) para la comunicación entre niveles dentro de la misma VPC. Consulta [Asegurar la red](securing-your-network.md)) para obtener más información sobre las ACL.
+    - **ACL:** lista de control de acceso (ACL) para la comunicación entre niveles dentro de la misma VPC. Consulta [Asegurar la red](cloudstack-securing-your-network.md)) para obtener más información sobre las ACL.
        - **default_allow:** (Predeterminado) Permitir todo tipo de tráfico desde/hacia otros niveles en la VPC.
        - **default_deny:** Denegar todo tipo de tráfico desde/hacia otros niveles en la VPC.
     ![Agregar página de red](/assets/working-with-vpcs-5-en.png)
@@ -53,7 +53,7 @@ Para obtener más información sobre las VPC, consulte [Qué es una VPC](../clou
 
 ### VPN de sitio a sitio
 
-Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](../cloudstack-compute-service/create-site-to-site-vpn-on-vpc.md).
+Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
 
 1. En la VPC de destino, busca el elemento **VPN de sitio a sitio** y haz clic en el menú de ajustes.
    ![La página de VPN de sitio a sitio](/assets/working-with-vpcs-6-en.png)
@@ -82,4 +82,4 @@ Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una o
 
 ### VPN de acceso remoto
 
-Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](../vpn/cca-using-remote-access.md).
+Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).
