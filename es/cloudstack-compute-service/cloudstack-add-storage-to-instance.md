@@ -15,11 +15,11 @@ Para cumplir con esos casos de uso, tienes la flexibilidad de agregar uno o vari
 ### Agregar volúmenes adicionales al crear la instancia
 Si sabes de antemano que necesitarás más capacidad que la que proporciona el volumen raíz básico, puedes crear y adjuntar un volumen de datos adicional desde la página *Agregar instancia*:
 
-![Volumen adicional](/assets/secondary-volume-1-en.png)
+![Volumen adicional](img/secondary-volume-1-en.png)
 
 En la sección **Tamaño**, haz clic en *Crear y adjuntar un volumen adicional* para expandir la subsección:
 
-![Disco personalizado](/assets/secondary-volume-2-en.png)
+![Disco personalizado](img/secondary-volume-2-en.png)
 
 Puedes seleccionar un nivel de almacenamiento (es decir, el nivel de rendimiento del volumen) y el tamaño de disco deseado. El rendimiento mínimo efectivo de cada tamaño de volumen se muestra al lado. Luego, ajusta el control deslizante **Tamaño del disco** al tamaño deseado para el nuevo volumen.
 

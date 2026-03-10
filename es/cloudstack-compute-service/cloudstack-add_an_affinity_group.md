@@ -75,7 +75,7 @@ En este ejemplo, agregaremos un nuevo grupo de afinidad al entorno de CloudStack
 
      Después de hacer clic en **Aplicar**, pueden pasar varios minutos hasta que aparezca la confirmación, ya que las instancias deben reiniciarse.
 
-     ![Captura de pantalla de la página Agregar grupo de afinidad, llena y lista para presionar el botón Aplicar](/assets/cs-add-affinity-group-en.png)
+     ![Captura de pantalla de la página Agregar grupo de afinidad, llena y lista para presionar el botón Aplicar](img/cs-add-affinity-group-en.png)
 
 
 ### Resultados

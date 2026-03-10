@@ -8,13 +8,13 @@ Una nube privada virtual (VPC) es una sección aislada lógicamente en un entorn
 
 Por lo general, en la mayoría de las nubes públicas del mercado, uno implementa sus instancias en lo que nos gusta llamar una *red básica*. En otras palabras, su instancia y las instancias de otros inquilinos están todas conectadas en la misma red enorme.
 
-![Red básica](/assets/what-is-a-vpc-1.png)
+![Red básica](img/what-is-a-vpc-1.png)
 
 El control de acceso a la red se realiza mediante grupos de seguridad o ACLes en el nivel del hipervisor. Reconocemos que este modelo también es mucho más sencillo de implementar para los proveedores de servicios y los clientes, pero la seguridad y el aislamiento de los inquilinos son un gran problema.
 
 En el modelo de VPC, puede haber un poco más de complejidad relacionada con la administración. Sin embargo, obtienes mucho más control y aislamiento. Por esta razón, seleccionamos este modelo sobre los métodos más tradicionales.
 
-![Modelo de red de VPC](/assets/what-is-a-vpc-2.png)
+![Modelo de red de VPC](img/what-is-a-vpc-2.png)
 
 Una VPC consta de los siguientes componentes de red:
 

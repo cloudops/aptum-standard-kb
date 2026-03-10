@@ -28,13 +28,13 @@ El usuario puede proporcionar al sistema una clave SSH pública para instalar en
 
 Además, durante la configuración, aparecerá un estimador de costos en la parte inferior de la página. En el estimador de costos se enumeran las opciones de configuración seleccionadas y sus costos individuales, así como un total estimado por hora y por mes. Se actualizará de forma dinámica a medida que seleccionas la configuración deseada para tu instancia.
 
-![Captura de pantalla de la página Agregar instancia con el estimador de costos mostrado](/assets/cloudstack-add-an-instance.png)
+![Captura de pantalla de la página Agregar instancia con el estimador de costos mostrado](img/cloudstack-add-an-instance.png)
 
 ## Lista de instancias
 
 Las instancias se enumeran en la sección **Instancias** del entorno CloudStack seleccionado.
 
-![Una captura de pantalla de la página de instancias de CloudStack, con puntos numerados que indican características de interés](/assets/cloudstack-instances-numdot.png)
+![Una captura de pantalla de la página de instancias de CloudStack, con puntos numerados que indican características de interés](img/cloudstack-instances-numdot.png)
 
 1. **Lista de instancias de CloudStack**
 

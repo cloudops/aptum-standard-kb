@@ -12,21 +12,21 @@ Cette section présente comment créer un **modèle** à partir d'une instance e
 
 Dans la section **Volumes**, localisez l'instance dont vous voulez dériver un modèle. Notez que ce processus ne fonctionne que pour une volume principal (ROOT). Disons que pour cette exemple, nous utiliserons l'instance *acme-db01*.
 
-![Liste de volumes](/assets/working-with-instance-templates-fr-1.png)
+![Liste de volumes](img/working-with-instance-templates-fr-1.png)
 
 Sélectionnez le volume principal de l'instance et cliquez ensuite sur le bouton *Action*. Sélectionnez l'option **Prendre une copie instantanée**.  La page *Prendre une copie instantanée* apparaîtra.  Saisissez un nom pour la copie instantanée si vous désirez.  Une notification va confirmer que la tâche est en cours.  Ce processus peut prendre un certain temps dépendent de la taille de l'instance.
 
-![Prendre une copie instantanée](/assets/working-with-instance-templates-fr-2.png)
+![Prendre une copie instantanée](img/working-with-instance-templates-fr-2.png)
 
 #### Créer votre modèle
 
 Déplacez vous dans la table **Copies instantanées**. Vous devriez voir votre copie instantanée dans la liste, et elle sera dans l'état **En cour de copie instantanée** jusqu'à ce que la copie instantanée soit terminé, quand elle apparaîtra dans l'état **Sauvgardé**.
 
-![Liste de copies instantanées](/assets/working-with-instance-templates-fr-4.png)
+![Liste de copies instantanées](img/working-with-instance-templates-fr-4.png)
 
 Cliquez sur le menu *Action* pour votre copie instantanée, et après cliquez sur **Créer un modèle**. La page *Créer un modèle* apparaîtra.
 
-![Créer un modèle](/assets/working-with-instance-templates-fr-5.png)
+![Créer un modèle](img/working-with-instance-templates-fr-5.png)
 
 Ensuite, il faut simplement remplir le contenu des champs requis suivants :
 
@@ -46,7 +46,7 @@ CloudOps offre la possibilité aux usagers d'importer leurs propres modèles cr�
 
 Premièrement, vous devez cliquez sur le bouton **Importer**. Une nouvelle fenêtre contextuelle va apparaître comme dans l'image suivante.
 
-![Importer un modèle](/assets/working-with-instance-templates-fr-6.png)
+![Importer un modèle](img/working-with-instance-templates-fr-6.png)
 
 Il faut remplir le contenu des champs requis. Voici une description de chacun d'eux :
 

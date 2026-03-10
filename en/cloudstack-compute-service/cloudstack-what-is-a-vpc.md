@@ -8,13 +8,13 @@ A Virtual Private Cloud (VPC) is a logically isolated section in an environment,
 
 Typically, in most of the public clouds on the market, you deploy your instances on what we like to call a *basic network*. In other words, your instance and other tenants' instances are all connected on the same huge network.
 
-![Basic network](/assets/what-is-a-vpc-1.png)
+![Basic network](img/what-is-a-vpc-1.png)
 
 Network access control is then accomplished by security groups or ACLs at the hypervisor level. We acknowledge that this model is way simpler to deploy for service providers and customers, too, but security and tenant isolation is a big issue.
 
 In the VPC model, there might be a little more complexity related to management. However, you gain much more control and isolation. For this reason, we selected this model over more traditional methods.
 
-![VPC network model](/assets/what-is-a-vpc-2.png)
+![VPC network model](img/what-is-a-vpc-2.png)
 
 A VPC is comprised of the following network components:
 

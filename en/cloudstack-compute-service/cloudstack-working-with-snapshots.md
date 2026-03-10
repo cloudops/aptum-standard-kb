@@ -19,11 +19,11 @@ Existing snapshots can be accessed by navigating to the desired environment, and
 
 1. A snapshot can be created from a volume listed in an environment's **Volumes** tab, from a volume on an instance's details page, under the **Volumes** item, or by clicking on *Create snapshot* on the **Snapshots** page.
    - From the **Volumes** tab:
-     ![Take snapshot from Volumes page](../../assets/working-with-snapshots-1-en.png)
+     ![Take snapshot from Volumes page](img/working-with-snapshots-1-en.png)
    - From an instance's details page:
-     ![Take snapshot from instance page](../../assets/working-with-snapshots-2-en.png)
+     ![Take snapshot from instance page](img/working-with-snapshots-2-en.png)
 1. To create the snapshot, click on the *Action* menu to the right of the volume, and select *Take snapshot*.  The *Take snapshot* page will appear:
-   ![Take snapshot page](../../assets/working-with-snapshots-3-en.png)
+   ![Take snapshot page](img/working-with-snapshots-3-en.png)
 1. You can choose to provide a name for the snapshot, or if the field is left blank CloudOps will automatically generate a name.
 1. Click *Submit* to create the snapshot.
 1. The **Volumes** tab will appear, and the volume chosen for the snapshot will be in the  **Snapshot in progress** state.

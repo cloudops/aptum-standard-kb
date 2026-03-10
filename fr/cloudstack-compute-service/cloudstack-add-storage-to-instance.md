@@ -15,11 +15,11 @@ Pour répondre à ces cas d'utilisation, vous avez la flexibilité d'ajouter un 
 ### Ajout de volume secondaire à la création d'une instance
 Si vous savez déjà que le volume principal de base ne vous fournira pas la capacité dont vous avez besoin lors de la création d'une instance, vous pouvez créer et attacher un volume secondaire à partir de la page *Ajouter une instance* :
 
-![Volume secondaire](/assets/secondary-volume-1-fr.png)
+![Volume secondaire](img/secondary-volume-1-fr.png)
 
 Dans la section **Taille**, cliquez sur *Créer et attache un volume additionnel* pour développer la sous-section :
 
-![Volume personnalisé](/assets/secondary-volume-2-fr.png)
+![Volume personnalisé](img/secondary-volume-2-fr.png)
 
 Vous devrez spécifier le tier de stockage (qui détermine le niveau de performance du volume) et la taille du disque à créer. La performance minimale effective de chaque taille de volume est affichée à son côté.  Ensuite, ajustez le curseur **Taille du disque** sur la taille souhaitée pour le nouveau volume.
 

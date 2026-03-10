@@ -14,16 +14,16 @@ En el siguiente ejemplo, habilitaremos el reenvío de puertos para HTTP (puerto 
 1. Selecciona la pestaña **Redes**.
 1. Desde el elemento de la lista de la VPC de destino, haz clic en el botón **Acceso público**.
 1. Haz clic en *Adquirir dirección IP*.
-![Adquirir dirección IP](/assets/config-port-fwd-1-en.png)
+![Adquirir dirección IP](img/config-port-fwd-1-en.png)
 1. Se te pedirá que confirmas la adquisición de una nueva dirección IP. Haz clic en *Aplicar*. La nueva dirección IP se asignará y aparecerá en **IP públicas**.
 1. Haz clic en la entrada de la nueva dirección IP:
-![Dirección adquirida](/assets/config-port-fwd-2-en.png)
+![Dirección adquirida](img/config-port-fwd-2-en.png)
 1. Aparecerá la pantalla **Reglas de reenvío de puertos**. Haz clic en *Agregar regla de reenvío de puertos*:
-![Reglas de reenvío de puertos](/assets/config-port-fwd-3-en.png)
+![Reglas de reenvío de puertos](img/config-port-fwd-3-en.png)
 1. Selecciona la instancia de destino *acme-web-01* y tu dirección IP privada correspondiente de la lista emergente y selecciona **TCP** como protocolo.
 1. Ingresa **80** en el campo **Inicio de puerto público** e ingresa **8080** en el campo **Inicio de puerto privado**. Debido a que estamos ingresando un solo puerto y no un rango de puertos, podemos dejar los campos de fin de puerto en blanco.
-![Agregar regla de reenvío de puertos](/assets/config-port-fwd-4-en.png)
+![Agregar regla de reenvío de puertos](img/config-port-fwd-4-en.png)
 1. Haz clic en *Aplicar*. Aparecerá la pantalla **Reglas de reenvío de puertos** y se enumerará la nueva regla:
-![Regla de reenvío de puertos agregada](/assets/config-port-fwd-5-en.png)
+![Regla de reenvío de puertos agregada](img/config-port-fwd-5-en.png)
 1. Valida que la regla de reenvío de puertos esté funcionando conectándose a la instancia a través de la IP pública en el puerto 80:
-![Validar con HTTP](/assets/config-port-fwd-6.png)
+![Validar con HTTP](img/config-port-fwd-6.png)

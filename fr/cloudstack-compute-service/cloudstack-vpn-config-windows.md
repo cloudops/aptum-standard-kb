@@ -12,18 +12,18 @@ Ces instructions permettent de configurer le VPN d'accès distant avec le client
 3\. Sélectionner *Certificates* dans la liste à gauche puis cliquer sur *Add >*.
 4\. Dans la fenêtre qui apparaît, sélectionner **Computer account**.
 
-![Certificates snap-in](/assets/Win-1-Computer-Account.png)
+![Certificates snap-in](img/Win-1-Computer-Account.png)
 
 5\. Dans la prochaine fenêtre, sélectionner **Local Computer: (the computer this console is running on)**  puis cliquer sur *Finish*.
 6\. Dans la fenêtre de la console, sélectionner *Console Root > Certificates (Local Computer) > Trusted Root Certification Authorities > Certificates*.
 7\. Faire un clic droit sur *Certificates* puis cliquer sur *All Tasks > Import…*.
 
-![All tasks menu, import option](/assets/Win-2-Import.png)
+![All tasks menu, import option](img/Win-2-Import.png)
 
 8\. Dans la prochaine fenêtre, cliquer sur *Next*.
 9\. Cliquer sur *Browse…* et sélectionner le certificat que vous avez enregistré avec l'extension **.crt** (le certificat est disponible dans l'interface de CloudOps, sur la page dédiée à la configuration du VPN d'accès distant) puis cliquer sur *Next*.
 
-![Certificate import wizard](/assets/Win-3-Browse.png)
+![Certificate import wizard](img/Win-3-Browse.png)
 
 10\. Garder **Place all certificates in the following store: Trusted Root Certification Authorities** puis cliquez sur *Next*
 11\. Cliquer sur *Finish*. Vous devriez voir le message *The import was successful*. Vous pouvez fermer les fenêtres ouvertes.
@@ -31,18 +31,18 @@ Ces instructions permettent de configurer le VPN d'accès distant avec le client
 
 
 #### Créer la connexion VPN:
-[Paramètres](/assets/Win-4-Settings.png)
+[Paramètres](img/Win-4-Settings.png)
 
-![VPN](/assets/Win-5-VPN.png)
+![VPN](img/Win-5-VPN.png)
 
-![Ajouter connexion](/assets/Win-6-Add-Connection.png)
+![Ajouter connexion](img/Win-6-Add-Connection.png)
 
-![Détails sur la connexion](/assets/Win-7-Connection-Details.png)
+![Détails sur la connexion](img/Win-7-Connection-Details.png)
 
-![Sélectionner la connexion](/assets/Win-8-Select-Connection.png)
+![Sélectionner la connexion](img/Win-8-Select-Connection.png)
 
 
 #### Initialiser la connexion VPN:
-![Se connecter](/assets/Win-9-Connect.png)
+![Se connecter](img/Win-9-Connect.png)
 
-![Connectée](/assets/Win-10-Connected.png)
+![Connectée](img/Win-10-Connected.png)

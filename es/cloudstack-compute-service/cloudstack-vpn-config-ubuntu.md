@@ -11,7 +11,7 @@ Esta guía te ayudará a configurar la VPN de administración remota en Ubuntu u
 1. En la sección *VPN*, haz clic en el botón **+** en el extremo derecho.
 1. Selecciona **IPsec/IKEv2 (strongswan)** como tipo de VPN.
 
-![Diálogo de selección de VPN](/assets/Lx-1-Strongswan.png)
+![Diálogo de selección de VPN](img/Lx-1-Strongswan.png)
 
 5. Ve a la pestaña *Identidad*.
 5. Dale un nombre a la VPN en el campo **Nombre**, por ejemplo: **Hypertec VPN**
@@ -20,7 +20,7 @@ Esta guía te ayudará a configurar la VPN de administración remota en Ubuntu u
 5. Introduce el nombre de usuario de la VPN en los campos *Identidad* y *Nombre de usuario*.
 5. En la sección *Opciones*, marca la casilla de verificación **Solicitar una dirección IP interna**.
 
-![Página de configuración de VPN](/assets/Lx-2-Request-internal.png)
+![Página de configuración de VPN](img/Lx-2-Request-internal.png)
 
 11. Opcionalmente, puedes ir a la pestaña *IPv4* y marcar **Usar esta conexión solo para recursos en su red**.
 11. Haz clic en *Agregar* en la parte superior derecha de la ventana para guardar la configuración.
