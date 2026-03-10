@@ -12,7 +12,7 @@ Las instancias en VPCs separadas están aisladas entre sí. A menudo, configurar
 
 Para abordar estos problemas, los proveedores de servicios pueden ofrecer una infraestructura de red privada dedicada para permitir que se interconecten dos VPCs. El tráfico de red entre las VPCs atraviesa una ruta interna en lugar de la red pública. Esto es útil cuando se necesita una conexión confiable y rápida, como para aplicaciones en tiempo real o para monitoreo y administración. En tal escenario, CloudOps puede aprovechar la ruta interna mediante la creación de una puerta de enlace privada entre las VPCs.
 
-![Ilustración simplificada de dos VPC interconectadas por una puerta de enlace privada a través de una conexión de red interna](/assets/private-gateways-diagram-es.jpg)
+![Ilustración simplificada de dos VPC interconectadas por una puerta de enlace privada a través de una conexión de red interna](img/private-gateways-diagram-es.jpg)
 
 El diagrama anterior ilustra una topología posible, donde dos VPCs están interconectadas y cada lado puede comunicarse con el otro. Un enrutador virtual en la VPC 1 se conecta a la puerta de enlace privada a través de una interfaz de red dedicada. Los cuadros rojos contienen la dirección IP que podría asignarse a cada interfaz. Las direcciones IP son solo para fines ilustrativos. Se configura una puerta de enlace privada en ambas VPCs y se identifica en cada lado por la dirección IP de la interfaz de terminación en el enrutador virtual. En esta ilustración, la puerta de enlace privada de la VPC 1 aparecería como 10.0.5.2 y la puerta de enlace privada de la VPC 2 sería 10.0.2.2. El diagrama no incluye detalles de la red física subyacente y también omite las redes dentro de cada VPC.
 
@@ -20,7 +20,7 @@ Debido a que la configuración de una puerta de enlace privada requiere un conoc
 
 Las puertas de enlace privadas se pueden ver navegando a tu entorno deseado, luego **Redes** \> **Puertas de enlace privadas**.
 
-![Una captura de pantalla de la página de descripción general de VPC, con puntos numerados que indican las características de la puerta de enlace privada](/assets/private-gateways-vpc-en.png)
+![Una captura de pantalla de la página de descripción general de VPC, con puntos numerados que indican las características de la puerta de enlace privada](img/private-gateways-vpc-en.png)
 
 1. **Lista de puertas de enlace privadas**
 
@@ -33,7 +33,7 @@ Las puertas de enlace privadas se pueden ver navegando a tu entorno deseado, lue
 
 ## Pasarelas privadas y ACLs
 
-![Captura de pantalla de los detalles de las puertas de enlace privadas paginadas, con puntos numerados en las características principales](/assets/private-gateways-list-en.png)
+![Captura de pantalla de los detalles de las puertas de enlace privadas paginadas, con puntos numerados en las características principales](img/private-gateways-list-en.png)
 
 1. **Lista de puertas de enlace privadas**
 
@@ -58,7 +58,7 @@ Las puertas de enlace privadas se pueden ver navegando a tu entorno deseado, lue
 
 ## Rutas estáticas
 
-![Una captura de pantalla de la página Rutas estáticas, con puntos numerados en las características principales](/assets/private-gateways-static-routes-en.png)
+![Una captura de pantalla de la página Rutas estáticas, con puntos numerados en las características principales](img/private-gateways-static-routes-en.png)
 
 1. **Lista de rutas estáticas**
 

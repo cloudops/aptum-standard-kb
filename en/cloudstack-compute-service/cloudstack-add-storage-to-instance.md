@@ -15,11 +15,11 @@ To fulfill those use cases, you have the flexibility of adding one or multiple a
 ### Add additional volumes upon instance creation
 If you know in advance that you will need more capacity than the basic root volume provides, you can create and attach an additional data volume from the *Add instance* page:
 
-![Additional volume](/assets/secondary-volume-1-en.png)
+![Additional volume](img/secondary-volume-1-en.png)
 
 In the **Size** section, click on *Create and attach an additional volume* to expand the sub-section:
 
-![Custom disk](/assets/secondary-volume-2-en.png)
+![Custom disk](img/secondary-volume-2-en.png)
 
 You may select a storage tier (i.e.: the volume's performance level) and the desired disk size. The effective minimal performance of each volume size is displayed beside it.  Next, adjust the **Disk size** slider to the desired size for the new volume.
 
@@ -48,7 +48,7 @@ Within the instance, the new volume is presented as a non-formatted block device
 ```
 [cca-user@web1 ~]$ lsblk
 NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
-xvda    202:0    0    8G  0 disk
+xvda    202:0    0    8G  0 diska
 ├─xvda1 202:1    0  512M  0 part /boot
 └─xvda2 202:2    0  7.5G  0 part /
 xvdb    202:16   0   20G  0 disk

@@ -17,19 +17,19 @@ En el siguiente ejemplo, habilitaremos el equilibrio de carga para HTTP (puerto 
 1. Selecciona la pestaña **Redes**.
 1. Desde el elemento de la lista de la VPC de destino, haz clic en el botón **Acceso público**.
 1. Haz clic en *Adquirir dirección IP*.
-![Adquirir dirección IP](/assets/load-balancing-1-en.png)
+![Adquirir dirección IP](img/load-balancing-1-en.png)
 1. Se te pedirá que confirmas la adquisición de una nueva dirección IP. Haz clic en *Aplicar*. La nueva dirección IP se asignará y aparecerá en **Direcciones IP públicas**.
 1. Haz clic en la entrada de la nueva dirección IP:
-![Dirección adquirida](/assets/load-balancing-2-en.png)
+![Dirección adquirida](img/load-balancing-2-en.png)
 1. Haz clic en el elemento etiquetado como **Reglas del equilibrador de carga**. Aparecerá la pantalla *Reglas del equilibrador de carga*:
-![Página de reglas del equilibrador de carga](/assets/load-balancing-3-en.png)
+![Página de reglas del equilibrador de carga](img/load-balancing-3-en.png)
 1. Haz clic en *Agregar regla de equilibrador de carga*. Aparecerá la página *Agregar regla de equilibrador de carga*.
 1. Asigna un nombre a tu nueva regla, especifica el puerto público para equilibrar la carga y el puerto privado para reenviar el tráfico, y selecciona las instancias que manejarán el tráfico para el equilibrador de carga:
-![Agregar regla de equilibrador de carga, información básica](/assets/load-balancing-4-en.png)
+![Agregar regla de equilibrador de carga, información básica](img/load-balancing-4-en.png)
 1. Selecciona el algoritmo de equilibrio deseado, el protocolo y el método de adherencia. En este ejemplo, no prescribimos ninguna política de adherencia y equilibramos la carga del tráfico TCP:
-![Agregar regla de equilibrador de carga, políticas](/assets/load-balancing-5-en.png)
+![Agregar regla de equilibrador de carga, políticas](img/load-balancing-5-en.png)
 1. Haz clic en *Aplicar*. Aparecerá la página *Reglas del equilibrador de carga* y se enumerará la nueva regla del equilibrador de carga:
-![Regla de equilibrador de carga creada](/assets/load-balancing-6-en.png)
+![Regla de equilibrador de carga creada](img/load-balancing-6-en.png)
 1. Haz clic en el enlace *IP públicas* en la ruta de navegación y valida que la información mostrada refleje tu regla recién creada:
-![Lista de direcciones IP públicas](/assets/load-balancing-7-en.png)
+![Lista de direcciones IP públicas](img/load-balancing-7-en.png)
 1. Finalmente, verifique que las reglas de equilibrio de carga funcionen como se esperaba ejecutando algo de tráfico y verifica si cada servidor está atendiendo una parte igual de las solicitudes. Una forma de lograr esto es obligar a cada servidor a devolver una respuesta ligeramente diferente (por ejemplo, el nombre de host del servidor) en su respuesta (o encabezados de respuesta).

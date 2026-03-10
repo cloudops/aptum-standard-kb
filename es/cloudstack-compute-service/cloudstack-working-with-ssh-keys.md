@@ -45,6 +45,6 @@ En este paso, cargamos la parte pública de nuestro par de claves (el archivo `r
 
 En la pestaña **Claves SSH**, haz clic en **Agregar clave SSH**. Aparecerá una nueva ventana emergente. Pon un nombre a tu clave y el contenido de la clave pública como se muestra a continuación.
 
-![Agregar clave SSH](/assets/add-an-ssh-key-en.jpeg)
+![Agregar clave SSH](img/add-an-ssh-key-en.jpeg)
 
 Una vez hecho esto, haz clic en **Aplicar**. La clave SSH aparecerá en la lista y también cuando deseas implementar una instancia con una plantilla habilitada para clave SSH.

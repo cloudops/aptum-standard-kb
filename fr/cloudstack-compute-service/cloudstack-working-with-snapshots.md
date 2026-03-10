@@ -19,11 +19,11 @@ Les copies instantanées existantes sont accessibles en naviguer à l'environnem
 
 1. Une copie instantanée peut être créée à partir d'un volume répertorié dans l'onglet **Volumes** d'un environnement, à partir d'un volume sur la page de détails d'une instance, sous l'élément **Volumes**, ou en cliquant sur *Ajouter une copie instantanée* sur l'onglet **Copies instantanées**.
     - Depuis l'onglet **Volumes** :
-      ![Prendre une copie instantanée depuis la page Volumes](../../assets/working-with-snapshots-1-fr.png)
+      ![Prendre une copie instantanée depuis la page Volumes](img/working-with-snapshots-1-fr.png)
     - Depuis la page de détails d'une instance :
-      ![Prendre une copie instantanée de la page de l'instance](../../assets/working-with-snapshots-2-fr.png)
+      ![Prendre une copie instantanée de la page de l'instance](img/working-with-snapshots-2-fr.png)
 1. Pour créer la copie instantanée, cliquez sur le menu *Action* à droite du volume, et sélectionnez *Prendre une copie instantanée*. La page *Prendre une copie instantanée* apparaîtra :
-    ![La page Prendre une copie instantanée](../../assets/working-with-snapshots-3-fr.png)
+    ![La page Prendre une copie instantanée](img/working-with-snapshots-3-fr.png)
 1. Vous pouvez choisir de fournir un nom pour la copie instantanée, ou si le champ est laissé vide, CloudOps générera automatiquement un nom.
 1. Cliquez sur *Valider* pour créer la copie instantanée.
 1. L'onglet **Volumes** apparaîtra et le volume choisi pour la copie instantanée sera dans l'état **En cours de copie instantanée**.

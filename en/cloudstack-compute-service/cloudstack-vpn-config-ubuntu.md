@@ -11,7 +11,7 @@ This guide will help you configure the remote management VPN on Ubuntu using the
 1. In the *VPN* section, click on the **+** button on the far right.
 1. Select **IPsec/IKEv2 (strongswan)** as the VPN type.
 
-![VPN selection dialogue](/assets/Lx-1-Strongswan.png)
+![VPN selection dialogue](img/Lx-1-Strongswan.png)
 
 5. Go to the *Identity* tab.
 5. Give the VPN a name in the **Name** field, for example: **Hypertec VPN**
@@ -20,7 +20,7 @@ This guide will help you configure the remote management VPN on Ubuntu using the
 5. Enter the VPN username into the *Identity* and *Username* fields.
 5. Under the *Options* section, check the **Request an inner IP address** checkbox.
 
-![VPN configuration page](/assets/Lx-2-Request-internal.png)
+![VPN configuration page](img/Lx-2-Request-internal.png)
 
 11. Optionally, you can go to the *IPv4* tab, and check **Use this connection only for resources on its network**.
 11. Click on *Add* at the top right of the window to save the configuration.

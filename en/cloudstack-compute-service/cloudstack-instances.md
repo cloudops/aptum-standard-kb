@@ -4,7 +4,7 @@ slug: cloudstack-instances
 ---
 
 
-Instances instances are a fundamental type of infrastructure provided by CloudStack. This article discusses the concept of instances and how they are managed in the platform.
+Instances are a fundamental type of infrastructure provided by CloudStack. This article discusses the concept of instances and how they are managed in the platform.
 
 Instances are listed under the **Instances** section of the selected CloudStack environment.
 

@@ -12,21 +12,21 @@ This section will show how to create an **instance template** from an existing i
 
 In the **Volumes** tab, locate the instance from which you wish to create a template. Note that this process will work only on ROOT volumes. Let's say we want to create an instance template out of *acme-db01*.
 
-![List of volumes](/assets/working-with-instance-templates-en-1.png)
+![List of volumes](img/working-with-instance-templates-en-1.png)
 
 Highlight the ROOT volume of the instance, and then click on the **Action** button. Select **Take Snapshot**.  The *Take snapshot* page will appear.  Enter a name for the snapshot if desired, then click *Submit*. A notification will confirm that the snapshot process began. This process can take couple minutes depending of the size of your instance.
 
-![Take snapshot](/assets/working-with-instance-templates-en-2.png)
+![Take snapshot](img/working-with-instance-templates-en-2.png)
 
 #### Create your template
 
 Navigate to the **Snapshot** tab. You should see your new snapshot in the list, and it will be in the **Snapshot in progress** state until the snapshot is complete, when it will appear in the **Completed** state.
 
-![List of snapshots](/assets/working-with-instance-templates-en-4.png)
+![List of snapshots](img/working-with-instance-templates-en-4.png)
 
 Click on the **Action** menu for your snapshot, then select **Create a template**. The *Create a template* page will appear.
 
-![Create template](/assets/working-with-instance-templates-en-5.png)
+![Create template](img/working-with-instance-templates-en-5.png)
 
 Then you simply need to fill the required fields:
 
@@ -46,7 +46,7 @@ CloudOps offers the possibility to import your own template made outside the pla
 
 First, you have to click on the **Import** button. A new wizard window will open, like shown in the following screenshot.
 
-![Import instance template](/assets/working-with-instance-templates-en-6.png)
+![Import instance template](img/working-with-instance-templates-en-6.png)
 
 Fill out the required fields. Here is a quick description for each of the items:
 

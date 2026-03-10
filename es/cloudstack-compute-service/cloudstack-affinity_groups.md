@@ -12,7 +12,7 @@ Un grupo de afinidad es un conjunto de instancias que están enlazadas con una r
 
 Los grupos de afinidad se enumeran y administran en la página **Grupos de afinidad** de un entorno de CloudStack:
 
-![Captura de pantalla de la página de grupos de afinidad en un entorno CloudStack](/assets/cs-affinity-groups-en.png)
+![Captura de pantalla de la página de grupos de afinidad en un entorno CloudStack](img/cs-affinity-groups-en.png)
 
 Las instancias se pueden agregar a un grupo de afinidad:
 

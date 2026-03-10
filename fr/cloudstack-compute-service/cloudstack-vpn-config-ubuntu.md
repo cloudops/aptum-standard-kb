@@ -11,7 +11,7 @@ Ce guide va vous aider à configurer l'accès VPN à distance sur Ubuntu en util
 1. Dans la section *VPN*, cliquez sur le bouton **+** à l'extrême droite.
 1. Sélectionner **IPsec/IKEv2 (strongswan)** comme type de VPN.
 
-![Sélection de VPN](/assets/Lx-1-Strongswan.png)
+![Sélection de VPN](img/Lx-1-Strongswan.png)
 
 5. Naviguer à l'onglet *Identity*.
 5. Donnez un nom au VPN dans le champ **Name**, par exemple : **Hypertec VPN**
@@ -20,7 +20,7 @@ Ce guide va vous aider à configurer l'accès VPN à distance sur Ubuntu en util
 5. Saisissez le nom d'utilisateur VPN dans les champs *Identity* et *Username*.
 5. Dans la section *Options*, cochez la case **Request an inner IP address**.
 
-![Page de configuration du VPN](/assets/Lx-2-Request-internal.png)
+![Page de configuration du VPN](img/Lx-2-Request-internal.png)
 
 11. Si vous le souhaitez, vous pouvez naviguer sur l'onglet *IPv4*, et cocher **Use this connection only for resources on its network**.
 11. Cliquer sur *Add* en haut à droite de la fenêtre pour sauvegarder la configuration.

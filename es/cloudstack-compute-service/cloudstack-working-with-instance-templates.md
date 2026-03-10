@@ -12,21 +12,21 @@ Esta sección mostrará cómo crear una **plantilla de instancia** a partir de u
 
 En la pestaña **Volúmenes**, busca la instancia a partir de la cual deseas crear una plantilla. Ten en cuenta que este proceso funcionará solo en volúmenes ROOT (raíz). Digamos que queremos crear una plantilla de instancia a partir de *acme-db01*.
 
-![Lista de volúmenes](/assets/working-with-instance-templates-en-1.png)
+![Lista de volúmenes](img/working-with-instance-templates-en-1.png)
 
 Resalta el volumen ROOT de la instancia y luego haz clic en el botón **Acción**. Selecciona **tomar copia instantánea**. Aparecerá la página *Tomar copia instantánea*. Ingresa un nombre para la instantánea si lo deseas, luego haz clic en *Aplicar*. Una notificación confirmará que comenzó el proceso de copia instantánea. Este proceso puede demorar un par de minutos según el tamaño de su instancia.
 
-![Tomar instantáneas](/assets/working-with-instance-templates-en-2.png)
+![Tomar instantáneas](img/working-with-instance-templates-en-2.png)
 
 #### Crea tu plantilla
 
 Ve a la pestaña **Copias instantáneas**. Deberías ver tu nueva instantánea en la lista, y estará en el estado **Copia instantánea en curso** hasta que la instantánea esté completa, cuando aparecerá en el estado **Completado**.
 
-![Lista de copias instantáneas](/assets/working-with-instance-templates-en-4.png)
+![Lista de copias instantáneas](img/working-with-instance-templates-en-4.png)
 
 Haz clic en el menú **Acción** para tu instantánea, luego selecciona **Crear plantilla**. Aparecerá la página *Crear plantilla*.
 
-![Crear plantilla](/assets/working-with-instance-templates-en-5.png)
+![Crear plantilla](img/working-with-instance-templates-en-5.png)
 
 Entonces simplemente necesitas llenar los campos requeridos:
 
@@ -46,7 +46,7 @@ CloudOps ofrece la posibilidad de importar tu propia plantilla hecha fuera de la
 
 Primero, debes hacer clic en el botón **Importar**. Se abrirá una nueva ventana del asistente, como se muestra en la siguiente captura de pantalla.
 
-![Importar plantilla de instancia](/assets/working-with-instance-templates-en-6.png)
+![Importar plantilla de instancia](img/working-with-instance-templates-en-6.png)
 
 Rellena los campos obligatorios. Aquí hay una descripción rápida para cada uno de los artículos:
 

@@ -12,7 +12,7 @@ Instances in separate VPCs are isolated from each other. Often, setting up a [si
 
 To address these issues, service providers can offer dedicated private networking infrastructure to allow two VPCs to be peered. Network traffic between the VPCs traverses an internal path instead of the public network. This is useful when a reliable and fast connection is needed, such as for real-time applications or for monitoring and management. In such a scenario, CloudOps is able to take advantage of the internal path by creating a private gateway between the VPCs.
 
-![Simplified illustration of two VPCs peered by a private gateway over an internal network connection](/assets/private-gateways-diagram-en.jpg)
+![Simplified illustration of two VPCs peered by a private gateway over an internal network connection](img/private-gateways-diagram-en.jpg)
 
 The diagram above illustrates one possible topology, where two VPCs are peered and either side can talk to the other. A virtual router in VPC 1 connects to the private gateway via a dedicated network interface. The red boxes contain the IP address that could be assigned to each interface. The IP addresses are for illustration purposes only. A private gateway is set up in both VPCs, and is identified on each side by the IP address of the terminating interface on the virtual router. In this illustration, the private gateway in VPC 1 would be listed as 10.0.5.2, and the private gateway for VPC 2 would be 10.0.2.2. The diagram does not include details of the underlying physical network, and it also omits the networks within each VPC.
 
@@ -20,7 +20,7 @@ Because setting up a private gateway requires specific knowledge of how the phys
 
 Private gateways can be seen by navigating to your desired environment, then **Networking** \> **Private gateways**.
 
-![A screenshot of the VPC overview page, with numbered dots indicating the private gateway features](/assets/private-gateways-vpc-en.png)
+![A screenshot of the VPC overview page, with numbered dots indicating the private gateway features](img/private-gateways-vpc-en.png)
 
 1.  **List of private gateways**
 
@@ -33,7 +33,7 @@ Private gateways can be seen by navigating to your desired environment, then **N
 
 ## Private gateways and ACLs
 
-![Screenshot of the Private Gateways details paged, with numbered dots on the major features](/assets/private-gateways-list-en.png)
+![Screenshot of the Private Gateways details paged, with numbered dots on the major features](img/private-gateways-list-en.png)
 
 1.  **List of private gateways**
 
@@ -58,7 +58,7 @@ Private gateways can be seen by navigating to your desired environment, then **N
 
 ## Static routes
 
-![A screenshot of the Static Routes page, with numbered dots on the major features](/assets/private-gateways-static-routes-en.png)
+![A screenshot of the Static Routes page, with numbered dots on the major features](img/private-gateways-static-routes-en.png)
 
 1.  **List of static routes**
 

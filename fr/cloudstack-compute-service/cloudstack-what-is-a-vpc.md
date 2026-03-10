@@ -7,13 +7,13 @@ Un nuage virtuel privé (VPC) est une section logiquement isolée dans un enviro
 
 Typiquement, dans la plupart des nuages publiques sur le marché, vous déployez vos instances dans ce qu'on aime appeler un *réseau simple*. Dans d'autres mots, vos instances ainsi que celles des autres clients sont connectées sur le même réseau.
 
-![Réseau simple](/assets/what-is-a-vpc-1.png)
+![Réseau simple](img/what-is-a-vpc-1.png)
 
 Le contrôle d'accès réseau est accompli avec l'utilisation de groupes de sécurité ou ACL au niveau de l'hyperviseur. Nous sommes conscients que ce modèle est beaucoup plus simple à mettre en place par un fournisseur de services et pour les clients, mais la sécurité et l'isolation entre les clients est un problème.
 
 Dans un modèle VPC, vous ferez face à une plus grande complexité de gestion. Toutefois, vous gagnerez énormément en contrôle et en isolation. Pour cette raison, nous avons sélectionné ce modèle plutôt qu'une approche plus traditionnelle.
 
-![Réseau modèle VPC](/assets/what-is-a-vpc-2.png)
+![Réseau modèle VPC](img/what-is-a-vpc-2.png)
 
 ### Considérations réseaux d’un VPC
 Un VPC est composé des éléments suivants:
