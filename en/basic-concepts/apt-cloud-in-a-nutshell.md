@@ -1,13 +1,13 @@
 ---
-title:  "CloudMC in a nutshell"
-slug: cloudmc-in-a-nutshell
+title:  "Apt Cloud in a nutshell"
+slug: apt-cloud-in-a-nutshell
 ---
 
-### What is CloudMC?
+### What is Apt Cloud?
 
-CloudMC is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
+Apt Cloud is a cloud edge orchestration platform. It delivers scalable, secure, high-performance, cost-effective, and resilient cloud services.
 
-### Why CloudMC?
+### Why Apt Cloud?
 
 - **Speed your innovation**  − On demand, self-service platform for DevOps, with complete API automation for continuous delivery
 - **Usage and cost transparency**  − Granular metering and reporting make governance without bureaucracy possible

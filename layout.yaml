@@ -3,10 +3,12 @@ categories:
   icon: fa fa-globe
   featured: false
   articles:
-      #- cloud.ca-in-a-nutshell.md
-      #- general-cloudmc_home_page.md
-      #- main-cloudmc-entities.md
-      - environments-to-organize-workloads-and-users.md
+      - apt-cloud-in-a-nutshell.md
+      - general-apt-cloud_home_page.md
+      - main-apt-cloud-entities.md
+      - environments.md
+      - create-a-new-environment.md
+      - glossary.md
       - need-more-help.md
 - category: cloudstack-compute-service
   icon: fa fa-cloud

@@ -1,13 +1,13 @@
 ---
-title: "CloudMC en bref"
+title: "Apt Cloud en bref"
 slug: cloudmc-en-bref
 ---
 
-### Qu'est-ce que CloudMC?
+### Qu'est-ce que Apt Cloud?
 
-CloudMC est une plateforme d'orchestration en périphérie. CloudMC permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
+Apt Cloud est une plateforme d'orchestration en périphérie. Apt Cloud permet l'extensibilité, la sécurité, la performance, le contrôle des coûts et la résilience de vos services infonuagiques.
 
-### Pourquoi CloudMC?
+### Pourquoi Apt Cloud?
 
 - **Accélérez votre innovation** - À la demande, plateforme libre-service pour développeurs,API complet pour favoriser l'automatisation et le déploiement continue
 - **Utilisation et transparence des coûts** - Mesures et rapports granulaires rendant possible la gouvernance sans avoir de bureaucratie
