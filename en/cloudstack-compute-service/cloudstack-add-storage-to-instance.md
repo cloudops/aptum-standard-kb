@@ -48,7 +48,7 @@ Within the instance, the new volume is presented as a non-formatted block device
 ```
 [cca-user@web1 ~]$ lsblk
 NAME    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
-xvda    202:0    0    8G  0 diska
+xvda    202:0    0    8G  0 disk
 ├─xvda1 202:1    0  512M  0 part /boot
 └─xvda2 202:2    0  7.5G  0 part /
 xvdb    202:16   0   20G  0 disk
