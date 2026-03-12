@@ -33,7 +33,7 @@ This article will guide you through the steps required to create a new environme
 
 8.  Click **Apply** to commit the selected members.
 
-9.  For some services, the **Initialize environment**page will appear next. The items on this page are specific to the service where the environment is being created. It is safe to click **Skip** and configure the environment later.
+9.  For some services, the **Initialize environment** page will appear next. The items on this page are specific to the service where the environment is being created. It is safe to click **Skip** and configure the environment later.
 
 
 ## Results

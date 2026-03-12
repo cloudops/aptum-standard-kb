@@ -10,39 +10,39 @@ categories:
       - create-a-new-environment.md
       - glossary.md
       - need-more-help.md
-- category: cloudstack-compute-service
+- category: aptum-iaas-compute-service
   icon: fa fa-cloud
   featured: true
   articles:
-      - cloudstack-instances.md
-      - cloudstack-add-an-instance.md
-      - cloudstack-working-with-instances.md
-      - cloudstack-what-is-a-vpc.md
-      - cloudstack-add-storage-to-instance.md
-      - cloudstack-working-with-ssh-keys.md
-      - cloudstack-configure-load-balancing.md
-      - cloudstack-configure-port-forwarding.md
-      - cloudstack-securing-your-network.md
-      - cloudstack-enable-static-nat.md
-      - cloudstack-import-iso.md
-      - cloudstack-working-with-vpcs.md
-      - cloudstack-working-with-cloudstack-compute-apis.md
-      - cloudstack-working-with-snapshots.md
-      - cloudstack-working-with-instance-templates.md
-      - cloudstack-affinity_groups.md
-      - cloudstack-add_an_affinity_group.md
-      - cloudstack-create-site-to-site-vpn-on-vpc.md
-      - cloudstack-install-and-config-cloudmonkey.md
-      - cloudstack-kernel-upgrade-on-ubuntu-debian.md
-      - cloudstack-move-instance-to-different-vpc.md
-      - cloudstack-force-reboot-an-instance.md
-      - cloudstack-private_gateways.md
-      - cloudstack-vpn-using-remote-access.md
-      - cloudstack-vpn-config-mac.md
-      - cloudstack-vpn-config-windows.md
-      - cloudstack-vpn-config-ubuntu.md
-      - cloudstack-deploy-virtual-machine-using-terraform.md
-      - cloudstack-deploy-a-kubernetes-cluster-with-rancher-2-x.md
+      - aptum-iaas-instances.md
+      - aptum-iaas-add-an-instance.md
+      - aptum-iaas-working-with-instances.md
+      - aptum-iaas-what-is-a-vpc.md
+      - aptum-iaas-add-storage-to-instance.md
+      - aptum-iaas-working-with-ssh-keys.md
+      - aptum-iaas-configure-load-balancing.md
+      - aptum-iaas-configure-port-forwarding.md
+      - aptum-iaas-securing-your-network.md
+      - aptum-iaas-enable-static-nat.md
+      - aptum-iaas-import-iso.md
+      - aptum-iaas-working-with-vpcs.md
+      - aptum-iaas-working-with-cloudstack-compute-apis.md
+      - aptum-iaas-working-with-snapshots.md
+      - aptum-iaas-working-with-instance-templates.md
+      - aptum-iaas-affinity_groups.md
+      - aptum-iaas-add_an_affinity_group.md
+      - aptum-iaas-create-site-to-site-vpn-on-vpc.md
+      - aptum-iaas-install-and-config-cloudmonkey.md
+      - aptum-iaas-kernel-upgrade-on-ubuntu-debian.md
+      - aptum-iaas-move-instance-to-different-vpc.md
+      - aptum-iaas-force-reboot-an-instance.md
+      - aptum-iaas-private_gateways.md
+      - aptum-iaas-vpn-using-remote-access.md
+      - aptum-iaas-vpn-config-mac.md
+      - aptum-iaas-vpn-config-windows.md
+      - aptum-iaas-vpn-config-ubuntu.md
+      - aptum-iaas-deploy-virtual-machine-using-terraform.md
+      - aptum-iaas-deploy-a-kubernetes-cluster-with-rancher-2-x.md
 #- category: gcp-compute-service
 #  icon: fa fa-cloud
 #  articles:
