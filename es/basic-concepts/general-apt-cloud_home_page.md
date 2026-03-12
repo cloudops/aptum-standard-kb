@@ -6,7 +6,7 @@ slug: general-cloudmc-pagina-de-inicio
 
 La página de inicio de Apt Cloud es la página predeterminada que se le presenta a un usuario cuando inicia sesión en el sistema.
 
-![Captura de pantalla de la página de inicio de Apt Cloud, con puntos numerados que resaltan las funciones de interés](/assets/general-cmc-ui-home-en.png)
+![Captura de pantalla de la página de inicio de Apt Cloud, con puntos numerados que resaltan las funciones de interés](img/general-cmc-ui-home-en.png)
 
 1.  **El espacio de trabajo**
 
