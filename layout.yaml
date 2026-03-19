@@ -3,9 +3,9 @@ categories:
   icon: fa fa-globe
   featured: false
   articles:
-      - apt-cloud-in-a-nutshell.md
-      - general-apt-cloud_home_page.md
-      - main-apt-cloud-entities.md
+      - aptum-portal-in-a-nutshell.md
+      - general-aptum-portal_home_page.md
+      - main-aptum-portal-entities.md
       - environments.md
       - create-a-new-environment.md
       - glossary.md
