@@ -1,12 +1,12 @@
 ---
-title: "Entités principales d'Apt Cloud"
-slug: entites-principales-cloudmc
+title: "Entités principales d'Aptum Portal"
+slug: entites-principales-aptum-portal
 ---
 
 
-Apt Cloud dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans Apt Cloud.
+Aptum Portal dispose d'un puissant modèle d'utilisateurs et de ressources, fournissant des fonctionnalités multi-locataires au niveau de l'entreprise pour connecter une variété de services différents. Voici une liste des principales entités qui fournissent la fonctionnalité et la sécurité dans Aptum Portal.
 
-### Entités d'Apt Cloud
+### Entités d'Aptum Portal
 
 - **Organisation :** Un regroupement d'utilisateurs finaux et de ressources connexes. Une organisation peut contenir des sous-organisations.
 
@@ -16,11 +16,11 @@ Apt Cloud dispose d'un puissant modèle d'utilisateurs et de ressources, fournis
 
 - **Application :** Une application externe qui a été configurée pour l'accès via Master Portal.
 
-- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à Apt Cloud.
+- **Utilisateur :** Un compte utilisateur est la manière dont un individu se connecte à Aptum Portal.
 
 - **Permission :** Une autorisation d'exécuter une tâche particulière.
 
-- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console Apt Cloud, ainsi que l'accès aux ressources d'un service.
+- **Rôle :** Une collection nommée d'autorisations qui régissent l'accès aux fonctionnalités de la console Aptum Portal, ainsi que l'accès aux ressources d'un service.
 
 ### Voir aussi
 

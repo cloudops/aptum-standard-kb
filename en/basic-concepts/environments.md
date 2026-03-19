@@ -4,18 +4,18 @@ slug: environments
 ---
 
 
-This article introduces the concept of environments in Apt Cloud, how they relate to service connections, and how to use them to organize your users and workloads.
+This article introduces the concept of environments in Aptum Portal, how they relate to service connections, and how to use them to organize your users and workloads.
 
 ## Overview
 
-In Apt Cloud, service connections \(or, simply *services*\) provide the mechanism for connecting to a remote service such as a cloud provider. To access the resources provided by the remote service, Apt Cloud users interact with an entity called an environment, which exists inside of a service connection. Each environment has its own resources, separate from all other environments, even those that are in the same service connection. This enables the existence of distinct environments to isolate production workloads from development systems, or to establish project-specific sandboxes. Additionally, an environment is accessible only to users that have been added to the environment as members, or to those users whose level privilege overrides the default behavior.
+In Aptum Portal, service connections \(or, simply *services*\) provide the mechanism for connecting to a remote service such as a cloud provider. To access the resources provided by the remote service, Aptum Portal users interact with an entity called an environment, which exists inside of a service connection. Each environment has its own resources, separate from all other environments, even those that are in the same service connection. This enables the existence of distinct environments to isolate production workloads from development systems, or to establish project-specific sandboxes. Additionally, an environment is accessible only to users that have been added to the environment as members, or to those users whose level privilege overrides the default behavior.
 
 Environments act as logical containers, abstracting functionality which may vary greatly between different types of service connections. For more information on which entities an environment maps to in a specific service, refer to that service's Overview article. Furthermore, the system calculates service usage at the organization-level for billing purposes, and the resources consumed by each environments are also tracked separately, which allows businesses to generate internal chargeback reports on a per-environment basis if they wish.
 
 There are two methods for adding environments, depending on the service connection:
 
 -   Create a new empty environment, which will be provisioned accordingly in the remote service.
--   Create a link to resources which already exist in the remote service, which will appear in Apt Cloud as an environment
+-   Create a link to resources which already exist in the remote service, which will appear in Aptum Portal as an environment
 
 Not all service connections will support both of these methods. Additionally, environments which link to existing resources will normally be created for you by your administrator.
 
@@ -23,11 +23,11 @@ Not all service connections will support both of these methods. Additionally, en
 
 Environments are accessed by navigating to the **Services** menu, then clicking on the desired service, which leads to the **Environments** page for that service. This page lists all environments in the selected service that are visible to the current user:
 
-![Screenshot of the Apt Cloud environments page, with numbered dots highlighting features of interest](img/environments-numdot.png)
+![Screenshot of the Aptum Portal environments page, with numbered dots highlighting features of interest](img/environments-numdot.png)
 
 1.  **Service identifier**
 
-    Displays the name of the currently selected service connection. Additionally, this section displays the code to use for accessing this service connection via the Apt Cloud API.
+    Displays the name of the currently selected service connection. Additionally, this section displays the code to use for accessing this service connection via the Aptum Portal API.
 
 2.  **List of environments**
 

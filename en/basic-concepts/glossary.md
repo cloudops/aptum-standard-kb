@@ -1,12 +1,12 @@
 ---
-title: "Glossary of Apt Cloud terms"
+title: "Glossary of Aptum Portal terms"
 slug: glossary
 ---
 
 <br>
 <br>
 
-See the <a href="https://docs.cloudops.com/#/quickstart/glossary" target="_blank">Apt Cloud Documentation Glossary</a>.
+See the <a href="https://docs.cloudops.com/#/quickstart/glossary" target="_blank">Aptum Portal Documentation Glossary</a>.
 
 <br>
 <br>
