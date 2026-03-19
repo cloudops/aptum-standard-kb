@@ -1,13 +1,13 @@
 ---
-title:  "Apt Cloud en breve"
-slug: apt-cloud-en-breve
+title:  "Aptum Portal en breve"
+slug: aptum-portal-en-breve
 ---
 
-### ¿Qué es Apt Cloud?
+### ¿Qué es Aptum Portal?
 
-Apt Cloud es una plataforma de orquestación de borde en la nube. Ofrece servicios en la nube escalables, seguros, de alto rendimiento, rentables y resistentes.
+Aptum Portal es una plataforma de orquestación de borde en la nube. Ofrece servicios en la nube escalables, seguros, de alto rendimiento, rentables y resistentes.
 
-### ¿Por qué Apt Cloud?
+### ¿Por qué Aptum Portal?
 
 - **Acelere tu innovación**: plataforma de autoservicio bajo demanda para DevOps, con automatización API completa para entrega continua
 - **Transparencia en el uso y los costos**: la medición y los informes granulares hacen posible la gobernanza sin burocracia
