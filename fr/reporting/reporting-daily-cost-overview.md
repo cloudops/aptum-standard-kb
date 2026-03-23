@@ -14,7 +14,7 @@ La première section du rapport présente l'agrégation des données de coûts p
 
 La dernière section du rapport énumère les événements qui se sont produits pendant la période sélectionnée. Cela permet à un utilisateur de potentiellement faire correspondre les événements et les changements de dépenses, et de trouver les causes profondes des tendances.
 
-![Une capture d'écran de l'aperçu des coûts quotidiens](/assets/reporting-daily-cost-overview.png)
+![Une capture d'écran de l'aperçu des coûts quotidiens](img/reporting-daily-cost-overview.png)
 
 1. **Regrouper par**
 

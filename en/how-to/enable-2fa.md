@@ -12,7 +12,7 @@ Two-factor authentication, also known as multi-factor authentication, 2FA, or MF
 
 It is generally recommended to always enable 2FA for your Aptum Portal account. Once 2FA is configured, when logging in you will be prompted for the one-time token:
 
-![Screenshot of the Aptum Portal login page prompting for a one-time token](/assets/enable-2fa-login-en.png)
+![Screenshot of the Aptum Portal login page prompting for a one-time token](img/enable-2fa-login-en.png)
 
 To generate a one-time token, you will need to install a token generator application, either on your smartphone or on your workstation. There are many applications that can work with Aptum Portal's 2FA system, such as LastPass, 1Password, Google Authenticator, Microsoft Authenticator, and others. Please refer to the documentation provided by the vendor of your software for installation and configuration information.
 
@@ -28,7 +28,7 @@ To generate a one-time token, you will need to install a token generator applica
 
 2.  Scroll to the bottom of the page and click on the button titled **Enable two-factor authentication \(2FA\)**.
 
-    ![Screenshot of the Security page, focused on the Enable two-factor authentication button](/assets/enable-2fa-enablebutton-en.png)
+    ![Screenshot of the Security page, focused on the Enable two-factor authentication button](img/enable-2fa-enablebutton-en.png)
 
 3.  You will be prompted for your password, enter it and then click **Confirm**.
 
@@ -38,13 +38,13 @@ To generate a one-time token, you will need to install a token generator applica
 
 5.  Enter the one-time token from your token generator into the provided text field.
 
-    ![Screenshot of the Security page, focused on the QR code and token entry](/assets/enable-2fa-qrcode-en.png)
+    ![Screenshot of the Security page, focused on the QR code and token entry](img/enable-2fa-qrcode-en.png)
 
 6.  Click **Enable**.
 
     A list of backup codes will be displayed. Store them in a safe place. In the event that you lose access to your token generator, use one of these codes to log into the system and re-enable 2FA with a new token generator.
 
-    ![Screenshot of the Security page, focused on the backup codes](/assets/enable-2fa-codes-en.png)
+    ![Screenshot of the Security page, focused on the backup codes](img/enable-2fa-codes-en.png)
 
 
 ### Results

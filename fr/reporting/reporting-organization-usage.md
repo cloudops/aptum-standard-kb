@@ -12,7 +12,7 @@ Le rapport d'utilisation de l'organisation est le premier document à consulter 
 
 Si votre compte utilisateur vous donne accès à plusieurs organisations, le rapport d'utilisation affichera la consommation de toutes les organisations auxquelles vous avez accès. Ce rapport est visible uniquement avec le rôle **Administrateur** ou avec un rôle personnalisé avec autorisation **Utilisation : Voir**.
 
-![Capture d'écran du rapport d'utilisation d'organisation](/assets/reporting-organization-usage.png)
+![Capture d'écran du rapport d'utilisation d'organisation](img/reporting-organization-usage.png)
 
 Le rapport d'utilisation de l'organisation est divisé en sections :
 
@@ -32,7 +32,7 @@ Lorsqu'une seule devise est configurée, le total des coûts de consommation pou
 
 ## Filtres
 
-![Capture d'écran des filtres disponibles pour le rapport d'utilisation d'organisation, avec l'onglet Où et quoi? sélectionné.](/assets/reporting-organization-usage-filters.png)
+![Capture d'écran des filtres disponibles pour le rapport d'utilisation d'organisation, avec l'onglet Où et quoi? sélectionné.](img/reporting-organization-usage-filters.png)
 
 1.  **Liste des filtres actuellement sélectionnés**
 
@@ -50,7 +50,7 @@ Lorsqu'une seule devise est configurée, le total des coûts de consommation pou
     -   Le menu contextuel **Connexion de service** répertorie toutes les connexions de service de l'organisation sélectionnée. Vous pouvez sélectionner une connexion pour afficher uniquement les données d'utilisation de cette connexion. Une seule connexion peut être sélectionnée à la fois. Si aucune connexion n'est sélectionnée, les données d'utilisation de toutes les connexions seront affichées.
     -   Si une connexion de service est sélectionnée, un menu contextuel **Environnement** s'affiche, vous permettant d'affiner les données à un environnement spécifique. Un seul environnement peut être sélectionné. Si aucun environnement n'est sélectionné, les données d'utilisation de tous les environnements de la connexion de service sélectionnée sont affichées.
 
-![Capture d'écran du sélecteur permettant d'afficher ou de masquer les catégories de produits dans le rapport](/assets/reporting-organization-usage-categories.png)
+![Capture d'écran du sélecteur permettant d'afficher ou de masquer les catégories de produits dans le rapport](img/reporting-organization-usage-categories.png)
 
 1.  **En-tête du rapport**
 
@@ -69,13 +69,13 @@ Lorsqu'une seule devise est configurée, le total des coûts de consommation pou
 
 ## Utilisation de l'engagement
 
-![Utilisation de l'engagement](/assets/reporting-organization-usage-commitment.png)
+![Utilisation de l'engagement](img/reporting-organization-usage-commitment.png)
 
 Tous les engagements configurés pour l'organisation sélectionnée et actifs pendant la période choisie seront affichés ici. Le nom de l'engagement, le nom du produit, la référence, la quantité utilisée, le tarif et le coût s'afficheront, ainsi que le total pour chaque engagement. Si plusieurs cycles de facturation sont sélectionnés pour la période, les quantités engagées pour chaque cycle de facturation, au sein de la période sélectionnée, seront indiquées pour chaque produit et chaque engagement.
 
 ## Utilisation utilitaire
 
-![Utilisation utilitaire](/assets/reporting-organization-usage-utility.png)
+![Utilisation utilitaire](img/reporting-organization-usage-utility.png)
 
 Cette section affiche le total de la consommation enregistrée sur la période sélectionnée. Chaque produit apparaît sur une ligne distincte, indiquant la quantité utilisée, le tarif et le coût. Les données sont regroupées par catégorie de produits, avec un sous-total pour chaque catégorie.
 

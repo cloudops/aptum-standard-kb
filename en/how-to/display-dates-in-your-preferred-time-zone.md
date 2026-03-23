@@ -10,4 +10,4 @@ All dates in the management portal are displayed in your time zone. You can cust
 1. In the *Account information* section, select the correct time zone, and the country (if desired).
 1. Click *Save*.
 
-![Time zone](/assets/time-zone-en-1.png)
+![Time zone](img/time-zone-en-1.png)

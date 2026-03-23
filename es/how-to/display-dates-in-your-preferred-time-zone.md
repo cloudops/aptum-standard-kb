@@ -10,4 +10,4 @@ Todas las fechas en el portal de administración se muestran en su zona horaria.
 1. En la sección *Información de la cuenta*, selecciona la zona horaria correcta, y el país (si deseas).
 1. Haz clic en *Guardar*.
 
-![Zona horaria](/assets/time-zone-en-1.png)
+![Zona horaria](img/time-zone-en-1.png)
