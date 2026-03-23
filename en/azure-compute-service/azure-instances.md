@@ -4,7 +4,7 @@ slug: azure-instances
 ---
 
 
-Virtual machines are a fundamental type of infrastructure provided by Microsoft Azure. This article discusses the concept of virtual machines and how they are managed in CloudMC.
+Virtual machines are a fundamental type of infrastructure provided by Microsoft Azure. This article discusses the concept of virtual machines and how they are managed in Aptum Portal.
 
 Virtual machines are listed under the **Instances** section of the selected Azure environment.
 
@@ -22,7 +22,7 @@ After a new instance has been deployed, the system will provide the user with a 
 
 Virtual machines are listed under the **Instances** section of the selected Azure environment.
 
-![A screenshot of the Azure Instances page, with numbered dots indicating features of interest](/assets/azure-instances-numdot.png)
+![A screenshot of the Azure Instances page, with numbered dots indicating features of interest](img/azure-instances-numdot.png)
 
 1.  **List of instances**
 
