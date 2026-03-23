@@ -22,7 +22,7 @@ Furthermore, when certain operations are performed, the system may need to commu
 
 For these situations, Aptum Portal will create a notification in the Notifications panel, an amber badge will appear on the bell icon, and the sensitive information will be presented inside the notification. You can copy the information out of the notification, and then clear the notification to preserve security.
 
-![A screenshot of a notification containing a ghosted password with gadgets for exposing the password and copying it to the clipboard](/assets/announcements-credentials-en.png)
+![A screenshot of a notification containing a ghosted password with gadgets for exposing the password and copying it to the clipboard](img/announcements-credentials-en.png)
 
 Because of the transitory and sensitive nature of activity notifications, they are accessible only from the notifications panel and are never saved by Aptum Portal, and may be cleared manually if desired by clicking the **Clear** or **Clear all** buttons.
 
@@ -37,11 +37,11 @@ When a new regular announcement has been published, an amber badge will appear o
 
 Announcements will persist in your Notifications panel even after they have been read, until your system administrator removes them.
 
-![Screenshot of the Notifications panel with a regular announcement indicating an upcoming change to a product displayed](/assets/announcements-regular-en.png)
+![Screenshot of the Notifications panel with a regular announcement indicating an upcoming change to a product displayed](img/announcements-regular-en.png)
 
 Splash announcements do not appear in the Notifications panel. Instead, these appear in the center of the Aptum Portal interface. They have a **Close** button, and all functionality in the platform is unavailable until you close the announcement. If you log out and then log back in, the announcement will be displayed again, until you click the **Close** button.
 
 Once a splash announcement has been closed, it will not reappear.
 
-![Screenshot of the Aptum Portal user interface with an splash announcement indicating emergency downtime for later in the day](/assets/announcements-splash-en.png)
+![Screenshot of the Aptum Portal user interface with an splash announcement indicating emergency downtime for later in the day](img/announcements-splash-en.png)
 

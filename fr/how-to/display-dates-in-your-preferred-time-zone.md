@@ -10,4 +10,4 @@ Toutes les dates dans le portail des gestion sont affichées selon votre fuseau 
 1. Dans la section *Information sur le compte*, selecctionez le bon fuseau horaire, et la pays (si vous le souhaitez).
 1. Cliquez sur *Sauvegarder*.
 
-![Fuseau horaire](/assets/time-zone-fr-1.png)
+![Fuseau horaire](img/time-zone-fr-1.png)

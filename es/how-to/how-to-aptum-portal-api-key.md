@@ -1,18 +1,18 @@
 ---
-title: "Generar una clave API de CloudMC"
-slug: clave-api-cloudmc
+title: "Generar una clave API de Aptum Portal"
+slug: clave-api-aptum-portal
 ---
 
 
-Cuando trabajas con la API de CloudMC, deberás generar una clave de API para usar con tu código. Las claves API brindan un método conveniente para que tu aplicación se identifique ante un servicio cuando realiza llamadas a la API del servicio.
+Cuando trabajas con la API de Aptum Portal, deberás generar una clave de API para usar con tu código. Las claves API brindan un método conveniente para que tu aplicación se identifique ante un servicio cuando realiza llamadas a la API del servicio.
 
-Cualquier usuario de CloudMC puede generar una clave API. Las claves API de un usuario tendrán el mismo nivel de privilegio que tiene el usuario. No hay límite para la cantidad de claves API que un usuario puede generar. Se recomienda aprovechar esto generando una clave API para cada aplicación que accederá al sistema.
+Cualquier usuario de Aptum Portal puede generar una clave API. Las claves API de un usuario tendrán el mismo nivel de privilegio que tiene el usuario. No hay límite para la cantidad de claves API que un usuario puede generar. Se recomienda aprovechar esto generando una clave API para cada aplicación que accederá al sistema.
 
 Para administrar tus claves de API, navega hasta el menú de usuario en la parte superior derecha de la página, haz clic en *Mi perfil*, luego haz clic en el elemento etiquetado como *Credenciales de API*.
 
 ### Enumerar puntos finales y claves de API existentes
 
-![Pantalla de credenciales de API](/assets/cloudmc-api-key-es-01.png)
+![Pantalla de credenciales de API](img/aptum-portal-api-key-es-01.png)
 
 La pantalla *Credenciales de API* enumera todas las claves existentes en la sección **Claves de API**. Se muestra el nombre de cada clave, la dirección IP desde la que se usó por última vez y la hora y la fecha en que se usó por última vez.
 
@@ -22,7 +22,7 @@ El punto final para realizar llamadas API al sistema se muestra encima de la lis
 
 ### Generar una nueva clave API
 
-![Clave API generada](/assets/cloudmc-api-key-es-02.png)
+![Clave API generada](img/aptum-portal-api-key-es-02.png)
 
 1. En la pantalla *Credenciales de API*, haz clic en el botón etiquetado como *Generar clave de API*.
 1. Introduce un nombre para la nueva clave en el campo de texto **Nombre**. Es posible que deseas dar a la clave un nombre que refleje la aplicación para la que se utilizará. Haz clic en *Generar*.
