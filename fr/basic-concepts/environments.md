@@ -24,7 +24,7 @@ Ces deux méthodes ne sont pas compatibles avec toutes les connexions au service
 
 Pour accéder aux environnements, rendez-vous dans le menu **Services**, puis cliquez sur le service souhaité. Vous accéderez ainsi à la page **Environnements** de ce service. Cette page répertorie tous les environnements du service sélectionné visibles par l'utilisateur actuel.
 
-![Capture d'écran de la page des environnements Aptum Portal, avec des points numérotés mettant en évidence les fonctionnalités importantes.](environments-numdot.png)
+![Capture d'écran de la page des environnements Aptum Portal, avec des points numérotés mettant en évidence les fonctionnalités importantes.](img/environments-numdot.png)
 
 1. **Identifiant du service**
 
