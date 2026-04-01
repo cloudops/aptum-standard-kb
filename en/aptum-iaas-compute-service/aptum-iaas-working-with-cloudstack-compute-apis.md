@@ -17,4 +17,4 @@ You can call these HTTP-based APIs by [manually crafting](http://docs.cloudstack
 To obtain the information required to make API calls to any of your environments, do the following:
 
 1. In the username menu (in the menu bar), select **API Info**.
-1. Underneath the section **Service native APIs**, select the desired **Service** and **Environment**. The HTTP entrypoint, API key, and Secret key required to call Aptum IaaS User APIs are displayed. Because there is a one-to-one relationship between a CloudOps *environment* and a Aptum IaaS *project*, you are also provided with the query parameter required to point to the corresponding Aptum IaaS project.
+1. Underneath the section **Service native APIs**, select the desired **Service** and **Environment**. The HTTP entrypoint, API key, and Secret key required to call Aptum IaaS User APIs are displayed. Because there is a one-to-one relationship between a Aptum IaaS *environment* and a Aptum IaaS *project*, you are also provided with the query parameter required to point to the corresponding Aptum IaaS project.
