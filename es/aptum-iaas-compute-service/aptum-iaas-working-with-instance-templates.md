@@ -52,7 +52,7 @@ Rellena los campos obligatorios. Aquí hay una descripción rápida para cada un
 
 - **Nombre:** Este es el nombre que se mostrará en la lista de plantillas o en el asistente de creación de instancias.
 - **Descripción:** Puede agregar información sobre el tema de tu plantilla.
-- **URL:** No se cargan plantillas en Aptum IaaS, Aptum IaaS las descarga por usted. **Tienes que proporcionar una URL que sea de acceso público** y usar uno de estos dos protocolos: **HTTP** o **FTP**. **Nota:** HTTPS no funcionará.
+- **URL:** No se cargan plantillas en Aptum IaaS, el sistema las descarga por usted. **Tienes que proporcionar una URL que sea de acceso público** y usar uno de estos dos protocolos: **HTTP** o **FTP**. **Nota:** HTTPS no funcionará.
 - **Hipervisor:** Siempre será XenServer en nuestro caso, al menos por ahora.
 - **Formato:** Siempre será VHD en nuestro caso, al menos por ahora.
 - **SO:** Proporcione el tipo de sistema operativo de tu plantilla. Por ejemplo, si tiene Ubuntu 22.04 con PVHVM, seleccionarías **Ubuntu 22.04 (64 bits)**. Si tiene un CentOS 8 que usa PV, usarías **CentOS 8**. Consulte a continuación las coincidencias de SO populares.
