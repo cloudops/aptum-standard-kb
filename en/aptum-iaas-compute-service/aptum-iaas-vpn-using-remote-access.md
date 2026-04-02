@@ -1,6 +1,6 @@
 ---
 title: "Connect to a VPC using remote access VPN"
-slug: connect-to-a-remote-management-vpn-ikev2
+slug: connect-to-a-remote-management-vpn
 ---
 
 Aptum IaaS provides the ability to connect securely from your home or office to your VPC. Using a pre-shared key with a VPN client on your preferred platform (e.g.: Windows, macOS, Ubuntu...), you will be able to access your instances without having to go through port forwarding on public IP addresses.
@@ -33,6 +33,6 @@ After you've successfully configured your VPC for VPN access, and created at lea
 The following information is required to configure the VPN client:
 
    - **Public IP:** The VPC's public IP address with tagged with the `VPN` purpose.
-   - **Pre-shared key:** The string displayed in the Attributes section of the *Remote Access VPN* page.
+   - **Pre-shared key:** The string displayed in the *Attributes* section of the *Remote Access VPN* page.
    - **Username:** a valid VPN account username.
    - **Password:** a valid VPN account password.
