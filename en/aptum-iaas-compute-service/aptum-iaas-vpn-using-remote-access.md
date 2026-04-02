@@ -20,19 +20,19 @@ Before you can connect to your VPC through a client VPN connection, you need to 
 1. The IP address to connect to is displayed at the top of the card.  Copy and paste this address into your VPN client.
 1. Copy and paste this pre-shared key into your VPN client.
 
-<!-- Commented out because this is relevant only for IKEv2 authentication (Stefan 1 April 2026)
-#### Create VPN account
-1. In the VPN page of a VPC, the list of VPN users is also displayed below the certificate.
+#### Create VPN user
+1. In the *Remote access VPN* page of the VPC, the list of VPN users is also displayed below the pre-shared key.
 1. Click on *Add VPN User*.
 1. Fill the *Add VPN User* form.
-1. Click on *Done*.
+1. Click on *Submit*.
 1. Repeat previous steps for each desired VPN user.
--->
 
 ## Connection to VPN
 After you've successfully configured your VPC for VPN access, and created at least one VPN user, you are now ready to connect to this VPN to access your instances and applications. When connected to a VPC via VPN, the clients have access to all its tiers (up to 4 subnets).
 
 The following information is required to configure the VPN client:
 
-   - **Public IP:** The VPC's public IP address with tagged with the "VPN" purpose.
+   - **Public IP:** The VPC's public IP address with tagged with the `VPN` purpose.
    - **Pre-shared key:** The string displayed in the Attributes section of the *Remote Access VPN* page.
+   - **Username:** a valid VPN account username.
+   - **Password:** a valid VPN account password.
