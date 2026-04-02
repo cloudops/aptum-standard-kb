@@ -21,7 +21,7 @@ Las siguientes instrucciones se aplican a Microsoft Windows 10 usando su cliente
 ![Menú de todas las tareas, opción de importación](img/Win-2-Import.png)
 
 8\. En la siguiente ventana, haz clic en *Siguiente*.
-9\. Haz clic en *Examinar...* y selecciona el archivo de certificado que guardaste en el disco con la extensión **.crt** (el certificado se proporciona en la interfaz de usuario de CloudOps, en la página para configurar la VPN de administración remota) y haz clic en *Próximo*.
+9\. Haz clic en *Examinar...* y selecciona el archivo de certificado que guardaste en el disco con la extensión **.crt** (el certificado se proporciona en la interfaz de usuario de Aptum IaaS, en la página para configurar la VPN de administración remota) y haz clic en *Próximo*.
 
 ![Asistente de importación de certificados](img/Win-3-Browse.png)
 

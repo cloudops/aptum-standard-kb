@@ -4,7 +4,7 @@ slug: aptum-iaas-gestion-des-cles-ssh
 ---
 
 
-Au lieu d'utiliser seulement un mot de passe pour vous connecter à votre instance, CloudOps supporte l'envoie des clés SSH. Cette article couvre les différents pré-requis pour que cette fonctionnalités soit opérationnelle ainsi que la génération et le téléversement des clés SSH.
+Au lieu d'utiliser seulement un mot de passe pour vous connecter à votre instance, Aptum IaaS supporte l'envoie des clés SSH. Cette article couvre les différents pré-requis pour que cette fonctionnalités soit opérationnelle ainsi que la génération et le téléversement des clés SSH.
 
 ### Pré-requis
 Pour que cette fonctionnalité soit opérationnelle, il faut que :
