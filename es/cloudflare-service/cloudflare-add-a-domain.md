@@ -1,38 +1,38 @@
 ---
-title: "Cloudflare: Add a domain"
-slug: cloudflare-add-domain
+title: "Cloudflare: Agregar un dominio"
+slug: cloudflare-agregar-dominio
 ---
 
 
-## About this task
+## Acerca de esta tarea
 
-This article will guide you through the process of adding a new domain to a Cloudflare environment.
+Este artículo te guiará en el proceso de agregar un nuevo dominio a un entorno de Cloudflare.
 
-## Before you begin
+## Antes de comenzar
 
--   Your Cloudflare environment must already exist
+- Tu entorno de Cloudflare debe estar ya configurado.
 
-## Procedure
+## Procedimiento
 
-1.  Navigate to your Cloudflare service using the **Services** menu, and click on the target environment from the service page.
+1. Acceda a tu servicio de Cloudflare mediante el menú **Servicios** y haz clic en el entorno de destino en la página del servicio.
 
-2.  Click on the **Add Domain** button. The **Add Domain** page will appear.
+2. Haz clic en el botón **Agregar un dominio**. Aparecerá la página **Agregar un dominio**.
 
-3.  Enter the fully qualified domain name to add.
+3. Ingresa el nombre de dominio completo que deseas agregar.
 
-    It is not necessary to have the trailing period at the end of the domain name. The system will automatically add it for you.
+   No es necesario incluir el punto al final del nombre de dominio. El sistema lo agregará automáticamente.
 
-    Optionally, mark the **Quick Scan for Records** checkbox to have the system import any existing resource records, by querying the current name servers.
+   Opcionalmente, marca la casilla **Quick Scan for Records** para que el sistema importe los registros de recursos existentes consultando los servidores de nombres actuales.
 
-4.  Click **Submit**.
+4. Haz clic en **Aplicar**.
 
-5.  If you marked the **Quick Scan for Records** checkbox, click on your domain when the environment page appears, and then verify that all the required resource records were successfully imported.
+5. Si marcaste la casilla **Quick Scan for Records**, haz clic en tu dominio cuando aparezca la página del entorno y verifique que todos los registros de recursos necesarios se hayan importado correctamente.
 
-    It is possible that some records may be missed during the scanning process. If any records are missing, add the missing records manually.
+   Es posible que algunos registros no se incluyan durante el proceso de búsqueda. Si falta algún registro, agrégalo manualmente.
 
 
-## Results
+## Resultados
 
--   The domain is now listed in the target environment
--   If importing was selected, you have verified that all records have been imported, and any missing records have been added manually
+- El dominio ya aparece en el entorno de destino.
+- Si seleccionaste la importación, verifica que se hayan importado todos los registros y que los que faltaban se hayan añadido manualmente.
 
