@@ -4,21 +4,21 @@ slug: cloudflare-dns
 ---
 
 
-This article introduces the Cloudflare DNS service, for creating and managing domains, records, and accounts through CloudOps environments.
+This article introduces the Cloudflare DNS service, for creating and managing domains, records, and accounts through Aptum Portal environments.
 
 ## Overview
 
-The Cloudflare DNS service provides high-performance name resolution for large-scale applications, with global distribution and reliable security. CloudOps integrates with the DNS service by enabling management of zones, including adding and deleting DNS records. This integration allows multiple zones to be administered from a single CloudOps environment.
+The Cloudflare DNS service provides high-performance name resolution for large-scale applications, with global distribution and reliable security. Aptum Portal integrates with the DNS service by enabling management of zones, including adding and deleting DNS records. This integration allows multiple zones to be administered from a single Aptum Portal environment.
 
-For DNS resolution to function properly, your domain must be configured at the name registrar to point to the Cloudflare name servers. Cloudflare will host the DNS records \(also known as **resource records**\) for your domain. The CloudOps interface provides a simple way to manage those resource records alongside your other cloud services.
+For DNS resolution to function properly, your domain must be configured at the name registrar to point to the Cloudflare name servers. Cloudflare will host the DNS records \(also known as **resource records**\) for your domain. The Aptum Portal interface provides a simple way to manage those resource records alongside your other cloud services.
 
-![Diagram illustrating how the major entities in CloudOps and Cloudflare are related](cloudflare-dns-entities.png)
+![Diagram illustrating how the major entities in Aptum Portal and Cloudflare are related](cloudflare-dns-entities.png)
 
 To enhance performance and security, you may also choose to have Cloudflare proxy the traffic for your A, AAAA, and CNAME records. When a client makes a DNS query for the host name of a proxied DNS record, Cloudflare will return the IP address of its own front-end servers. When the client makes an HTTP or HTTPS request, the client will send the request to Cloudflare's servers, which will in turn make the request to the origin server, which is the server identified in your DNS record. This content will be returned in the response to the client, and will also be cached at the Cloudflare servers for faster retrieval.
 
 ## Environments
 
-To begin working with Cloudflare resources, create a new environment in the Cloudflare service in CloudOps. Upon creating a new environment, a new account will be automatically created in Cloudflare, and associated to the CloudOps environment.
+To begin working with Cloudflare resources, create a new environment in the Cloudflare service in Aptum Portal. Upon creating a new environment, a new account will be automatically created in Cloudflare, and associated to the Aptum Portal environment.
 
 ![A screenshot of the Environments page for the Cloudflare service](cloudflare-env-list.png)
 

@@ -21,7 +21,7 @@ This article will guide you through the process of adding a new DNS record to a 
 
 2.  Click the **Add DNS record** button.
 
-3.  On the **Add DNS record** page, select the record type and enter the values for your record.
+3.  In the **Add DNS record** dialog box, select the record type and enter the values for your record.
 
     Each resource record type has its own fields, therefore changing the **Type** field will change the displayed fields.
 
