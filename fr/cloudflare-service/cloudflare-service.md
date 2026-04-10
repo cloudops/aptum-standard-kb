@@ -1,3 +1,3 @@
 ---
-name: Cloudflare Service
+name: Service de Cloudflare
 ---
