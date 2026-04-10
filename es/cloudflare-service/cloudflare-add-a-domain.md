@@ -10,7 +10,7 @@ Este artículo te guiará en el proceso de agregar un nuevo dominio a un entorno
 
 ## Antes de comenzar
 
-- Tu entorno de Cloudflare debe estar ya configurado.
+- Tu entorno de Cloudflare debe estar ya configurado
 
 ## Procedimiento
 
@@ -33,6 +33,6 @@ Este artículo te guiará en el proceso de agregar un nuevo dominio a un entorno
 
 ## Resultados
 
-- El dominio ya aparece en el entorno de destino.
-- Si seleccionaste la importación, verifica que se hayan importado todos los registros y que los que faltaban se hayan añadido manualmente.
+- El dominio ya aparece en el entorno de destino
+- Si seleccionaste la importación, verifica que se hayan importado todos los registros y que los que faltaban se hayan añadido manualmente
 

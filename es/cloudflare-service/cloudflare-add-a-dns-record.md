@@ -1,41 +1,40 @@
 ---
-title: "Cloudflare: Add a DNS record"
-slug: cloudflare-add-dns-record
+title: "Cloudflare: Agregar un registro DNS"
+slug: cloudflare-agregar-registro-dns
 ---
 
 
-## About this task
+## Acerca de esta tarea
 
-This article will guide you through the process of adding a new DNS record to a Cloudflare DNS domain.
+Este artículo te guiará a través del proceso para agregar un nuevo registro DNS a un dominio DNS de Cloudflare.
 
-## Before you begin
+## Antes de comenzar
 
--   Your Cloudflare environment must already exist
--   The target domain must already exist in the environment
--   The registrar where this domain name is hosted must point to the Cloudflare name servers
--   The state of the domain must be `Active`
+- Tu entorno de Cloudflare debe estar configurado
+- El dominio de destino debe existir en el entorno
+- El registrador donde está alojado este nombre de dominio debe apuntar a los servidores DNS de Cloudflare
+- El estado del dominio debe ser `Activo`
 
-## Procedure
+## Procedimiento
 
-1.  Navigate to your Cloudflare service using the **Services** menu, click on the target environment from the service page, then click on the target domain.
+1. Acceda a tu servicio de Cloudflare mediante el menú **Servicios**, haz clic en el entorno de destino en la página del servicio y, a continuación, haz clic en el dominio de destino.
 
-2.  Click the **Add DNS record** button.
+2. Haz clic en el botón **Agregar registro DNS**.
 
-3.  On the **Add DNS record** page, select the record type and enter the values for your record.
+3. En el cuadro de diálogo **Agregar registro DNS**, selecciona el tipo de registro e introduce los valores correspondientes.
 
-    Each resource record type has its own fields, therefore changing the **Type** field will change the displayed fields.
+Cada tipo de registro de recurso tiene sus propios campos; por lo tanto, al cambiar el campo **Tipo**, se modificarán los campos que se muestran.
 
-4.  Select a time to live \(TTL\) value for this record.
+4. Selecciona un valor de tiempo de vida (TTL) para este registro.
 
-    This option controls how long a DNS client will cache the record before requesting it again from the DNS system.
+   Esta opción controla cuánto tiempo un cliente DNS almacenará en caché el registro antes de solicitarlo de nuevo al sistema DNS.
 
-5.  \(Optional\) Enter a comment to be appended to the record. This is internal to the record and will not be displayed in the list of records.
+5. (Opcional) Introduce un comentario que se añadirá al registro. Este comentario es interno y no se mostrará en la lista de registros.
 
-6.  Click the **Submit** button.
+6. Haz clic en el botón **Aplicar**.
 
 
-## Results
+## Resultados
 
--   The new DNS record is now listed in the target domain page.
--   The record now resolves when queried through the DNS system
-
+- El nuevo registro DNS ya aparece en la página del dominio de destino
+- El registro ahora se resuelve al consultarlo a través del sistema DNS

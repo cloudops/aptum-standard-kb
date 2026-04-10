@@ -10,7 +10,7 @@ Cet article vous guidera tout au long du processus d'ajout d'un nouveau domaine 
 
 ## Avant de commencer
 
-- Votre environnement Cloudflare doit déjà exister.
+- Votre environnement Cloudflare doit déjà exister
 
 ## Procédure
 
@@ -33,7 +33,6 @@ Cet article vous guidera tout au long du processus d'ajout d'un nouveau domaine 
 
 ## Résultats
 
-- Le domaine est maintenant répertorié dans l'environnement cible.
-
-- Si l'importation a été sélectionnée, vous avez vérifié que tous les enregistrements ont été importés et que les enregistrements manquants ont été ajoutés manuellement.
+- Le domaine est maintenant répertorié dans l'environnement cible
+- Si l'importation a été sélectionnée, vous avez vérifié que tous les enregistrements ont été importés et que les enregistrements manquants ont été ajoutés manuellement
 
