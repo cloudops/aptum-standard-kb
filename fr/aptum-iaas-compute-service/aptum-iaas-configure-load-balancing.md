@@ -24,12 +24,8 @@ Dans l'example suivant, nous allons mettre en place un répartition de charge su
 1. Cliquez sur l'élément intitulé **Règles de répartition de charge**. L'écran *Règles de répartition de charge* apparaîtra.
 ![Page des règles de répartition](img/load-balancing-3-en.png)
 1. Cliquez sur *Ajouter une règle de répartition de charge*.  La page *Ajouter une règle de répartition de charge* apparaîtra.
-1. Nommez votre nouvelle règle, spécifiez le port public vers lequel équilibrer la charge et le port privé vers lequel transférer le trafic, puis sélectionnez les instances qui géreront le trafic pour l'équilibreur de charge :
-<!-- ![Ajouter une règle de répartition, information de base](img/load-balancing-4-fr.png)  -->
-1. Sélectionnez l'algorithme de répartition souhaité, le protocole et la méthode de persistance. Dans cet exemple, nous ne spécifions aucune méthode de persistance et nous ciblons le protocole TCP :
-<!-- ![Ajouter une règle de répartition, règles](img/load-balancing-5-fr.png)  -->
-1. Cliquez sur *Valider*. La page *Règles de répartition de charge* apparaîtra et la nouvelle règle de répartition de charge sera répertoriée :
-<!-- ![Règle de répartition de charge crée](img/load-balancing-6-fr.png)  -->
-1. Cliquez le lien *IPs publiques* dans la piste de navigation et validez la bonne création de la règle de répartition de charge:
-<!-- ![Liste des adresses IP publiques](img/load-balancing-7-fr.png)  -->
+1. Nommez votre nouvelle règle, spécifiez le port public vers lequel équilibrer la charge et le port privé vers lequel transférer le trafic, puis sélectionnez les instances qui géreront le trafic pour l'équilibreur de charge :  <!-- ![Ajouter une règle de répartition, information de base](img/load-balancing-4-fr.png)  -->
+1. Sélectionnez l'algorithme de répartition souhaité, le protocole et la méthode de persistance. Dans cet exemple, nous ne spécifions aucune méthode de persistance et nous ciblons le protocole TCP :  <!-- ![Ajouter une règle de répartition, règles](img/load-balancing-5-fr.png)  -->
+1. Cliquez sur *Valider*. La page *Règles de répartition de charge* apparaîtra et la nouvelle règle de répartition de charge sera répertoriée :  <!-- ![Règle de répartition de charge crée](img/load-balancing-6-fr.png)  -->
+1. Cliquez le lien *IPs publiques* dans la piste de navigation et validez la bonne création de la règle de répartition de charge:  <!-- ![Liste des adresses IP publiques](img/load-balancing-7-fr.png)  -->
 1. Finalement, validez le bon fonctionnement de la règle de répartition en laissant rouler du trafic et en vérifiant que chaque instance sert une part égale des requêtes. Une façon d'effectuer cela est de forcer chaque serveur à retourner un réponse légèrement différente (ex.: le nom de l'hôte) dans sa réponse (ou dans les entêtes de réponse).
