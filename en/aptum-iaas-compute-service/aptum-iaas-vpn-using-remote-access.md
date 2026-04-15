@@ -1,6 +1,6 @@
 ---
-title: "Connect to a VPC using remote access VPN"
-slug: connect-to-a-remote-management-vpn
+title: "Aptum IaaS:  Connect to a VPC using remote access VPN"
+slug: aptum-iaas-connect-to-a-remote-management-vpn
 ---
 
 Aptum IaaS provides the ability to connect securely from your home or office to your VPC. Using a pre-shared key with an IPSec VPN client on your preferred platform (e.g.: Windows, macOS, Ubuntu...), you will be able to access your instances without having to go through port forwarding on public IP addresses.
