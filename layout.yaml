@@ -38,7 +38,7 @@ categories:
       - aptum-iaas-force-reboot-an-instance.md
       - aptum-iaas-private_gateways.md
       - aptum-iaas-vpn-using-remote-access.md
-      - aptum-iaas-vpn-config-mac.md
+      - aptum-iaas-vpn-ipsec-config-mac.md
       - aptum-iaas-vpn-config-windows.md
       - aptum-iaas-vpn-config-ubuntu.md
       - aptum-iaas-deploy-virtual-machine-using-terraform.md
