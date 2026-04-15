@@ -12,20 +12,14 @@ La página de inicio de Aptum Portal es la página predeterminada que se le pres
 
     El espacio de trabajo es la sección principal de todas las pantallas de Aptum Portal. Los elementos que son visibles en el espacio de trabajo están determinados por el contexto de su ubicación en el sistema. Por ejemplo, en la página de inicio que se muestra aquí, puedes encontrar el mapa de servicios, el panel de acceso rápido, así como resúmenes del estado del sistema y la actividad reciente.
 
-2.  **La barra lateral**
+2.  **Botones de navegación principales**
 
-    La barra lateral está en el lado izquierdo de cualquier pantalla de Aptum Portal. La barra lateral es donde puedes navegar a todas las funciones principales del sistema, incluidas las conexiones de servicio, los informes, los registros de actividad y la administración.
+    Los botones de navegación principales de cualquier pantalla de Aptum Portal. Desde aquí puede acceder a las principales funciones del sistema, incluidas las conexiones de servicio, los informes, los registros de actividad y la administración.
 
-3.  **El selector de organización**
+3.  **Selector de organización**
 
-    Aptum Portal es una plataforma multiinquilino. Utiliza el selector de organizaciones para navegar entre las organizaciones y suborganizaciones a las que tienes acceso. Ten en cuenta que la marca de la interfaz de usuario puede cambiar cuando cambia a una organización diferente.
+    Aptum Portal es una plataforma multiusuario. Utilice el selector de organización para navegar entre las organizaciones y suborganizaciones a las que tiene acceso.
 
-4.  **La barra de menús**
+4.  **Menús de ayuda, notificaciones y configuración de usuario**
 
-    En la parte superior de todas las pantallas se encuentra la barra de menú. El lado derecho de la barra de menú contiene tres elementos: el menú de ayuda, el menú de notificaciones y el menú de parámetros de usuario.
-
-5.  **El gadget de contracción**
-
-    Haz clic en el gadget de contracción para minimizar la barra lateral. Esto hará que haya más espacio disponible para el espacio de trabajo. Los elementos de la barra lateral seguirán estando visibles a través de sus iconos.
-
-
+    En la esquina superior de cualquier pantalla de CloudOps encontrará tres elementos: el menú de ayuda, el menú de notificaciones y el menú de configuración de usuario.

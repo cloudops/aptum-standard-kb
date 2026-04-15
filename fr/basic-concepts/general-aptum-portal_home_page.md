@@ -12,20 +12,14 @@ La page d'accueil Aptum Portal est la page par défaut qui s'affiche lorsqu'un u
 
     L'espace de travail est la section principale de tous les écrans Aptum Portal. Les éléments visibles dans l'espace de travail sont déterminés par le contexte dans lequel vous vous trouvez dans le système. Par exemple, dans la page d'accueil répertoriée ici, vous pouvez trouver la carte des services, le panneau d'accès rapide, ainsi que des résumés de la santé du système et de l'activité récente.
 
-2.  **La barre latérale**
+2.  **Boutons de navigation principaux**
 
-    La barre latérale se trouve sur le côté gauche de n'importe quel écran Aptum Portal. La barre latérale est l'endroit où vous pouvez accéder à toutes les fonctionnalités principales du système, y compris les connexions de service, les rapports, les journaux d'activité et l'administration.
+    Les boutons de navigation principaux de chaque écran du portail Aptum vous permettent d'accéder à toutes les fonctionnalités principales du système, notamment les connexions de service, les rapports, les journaux d'activité et l'administration.
 
-3.  **Le sélecteur d'organisation**
+3.  **Sélecteur d'organisation**
 
-    Aptum Portal est une plate-forme multi-tenant. Utilisez le sélecteur d'organisation pour naviguer entre les organisations et les sous-organisations auxquelles vous avez accès. Notez que la marque de l'interface utilisateur peut changer lorsque vous changez d'organisation.
+    Le portail Aptum est une plateforme mutualisée. Utilisez le sélecteur d'organisation pour naviguer entre les organisations et sous-organisations auxquelles vous avez accès.
 
-4.  **La barre de menu**
+4.  **Menus Aide, Notifications et Paramètres de l'utilisateur**
 
-    En haut de tous les écrans se trouve la barre de menus. Le côté droit de la barre de menus contient trois éléments : le menu d'aide, le menu des notifications et le menu de paramètres de l'utilisateur.
-
-5.  **Le gadget de réduction**
-
-    Cliquez sur le gadget de réduction pour minimiser la barre latérale. Cela rendra plus de place disponible pour l'espace de travail. Les éléments de la barre latérale seront toujours visibles via leurs icônes.
-
-
+    Le coin supérieur de chaque écran CloudOps contient trois éléments : le menu Aide, le menu Notifications et le menu Paramètres utilisateur.
