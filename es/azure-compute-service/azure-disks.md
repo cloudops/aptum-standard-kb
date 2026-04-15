@@ -34,15 +34,19 @@ Los discos se enumeran en la pestaña **Discos** del entorno de Azure selecciona
 
      Escribe en el cuadro de búsqueda para filtrar la lista de discos. El sistema buscará en los campos de nombre del disco, estado, tipo e instancia y devolverá cualquier disco que coincida con la cadena en el cuadro de búsqueda.
 
-3. **Agregar disco**
+3. **Filtrar por grupo de recursos**
+
+     Para mostrar solo las instancias de un grupo de recursos específico, seleccione el grupo deseado en el menú emergente Filtro.
+
+4. **Agregar disco**
 
      Al hacer clic en este botón se abrirá el asistente **Agregar disco**.
 
-4. **Entrada de disco**
+5. **Entrada de disco**
 
      Cada entrada incluye el nombre del disco, su estado \(conectado o desconectado\), el tipo de disco \(OS o datos\) y el tipo de rendimiento \(HDD, SDD, etc\), y el nombre de la instancia a cual esté adjunto el disco, si corresponde.
 
-5. **Menú de acciones escondidas**
+6. **Menú de acciones escondidas**
 
      Cada entrada en la lista de discos tiene un menú de acciones escondidas. Haz clic en el menú de acciones escondidas para modificar o eliminar el disco.
 
