@@ -1,6 +1,6 @@
 ---
-title: "Connexion à un VPC par une connexion VPN sécurisée"
-slug: connexion-a-un-vpc-par-un-vpn-a-distance
+title: "Aptum IaaS: Connexion à un VPC par une connexion VPN sécurisée"
+slug: aptum-iaas-connexion-a-un-vpc-par-un-vpn-a-distance
 ---
 
 Aptum IaaS vous offre la possibilité de vous connecter de façon sécurisée depuis votre maison ou votre bureau aux réseaux de vos VPCs.  Utilisation d'une clé pré-partagée avec un client VPN IPSec sur votre plateforme préférée (Windows, macOS, Ubuntu…), vous pourrez accéder à vos machines virtuelles sans utiliser la redirection de port sur adresses IP publiques.

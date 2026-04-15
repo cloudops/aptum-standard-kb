@@ -1,6 +1,6 @@
 ---
-title: "Conectar a una VPC mediante una VPN de acceso remoto"
-slug: conectar-a-una-vpc-con-vpn
+title: "Aptum IaaS:  Conectar a una VPC mediante una VPN de acceso remoto"
+slug: aptum-iaas-conectar-a-una-vpc-con-vpn
 ---
 
 Aptum IaaS brinda la capacidad de conectarte de forma segura desde tu hogar u oficina a tu VPC. Usando un cliente VPN y una clave precompartida sobre IPSec en tu plataforma preferida (por ejemplo, Windows, macOS, Ubuntu...), podrás acceder a tus instancias sin tener que pasar por el reenvío de puertos en direcciones IP públicas.
