@@ -11,7 +11,7 @@ slug: aptum-iaas-working-with-vpcs
 
 To create, modify, or delete a VPC, an account with the *User* role must be a member of the environment which contains the VPC, and also have the *Editor* or *Owner* environment role assigned.  An account with the *Administrator* role or higher may create, modify, or delete VPCs in an environment.
 
-For more information about VPCs, please see [What is a VPC](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
+For more information about VPCs, please see [What is a VPC](aptum-iaas-what-is-a-vpc.md).
 
 ### Create a new VPC
 
@@ -44,19 +44,19 @@ For more information about VPCs, please see [What is a VPC](../cloudstack-comput
       - **Load Balanced Tier:**  (Default) Includes the features of the Standard Tier and also offers the ability to load-balance traffic across multiple instances within that tier, via rules that are applied on a public IP Address. **Note: Only a single tier within a VPC can have this offering.**
    - **Gateway:** The IP address of the default gateway for the network tier to be created.
    - **Netmask:**  The subnet mask of the network tier to be created.
-   - **ACL:** Access control list (ACL) for communication across tiers within the same VPC.  See [Securing your network](cloudstack-securing-your-network.md) for more information about ACLs.
+   - **ACL:** Access control list (ACL) for communication across tiers within the same VPC.  See [Securing your network](aptum-iaas-securing-your-network.md) for more information about ACLs.
       - **default_allow:**  (Default) Allow all type of traffic from/to other tiers in the VPC.
       - **default_deny:**  Deny all type of traffic from/to other tiers in the VPC.
-   ![Add network page](img/working-with-vpcs-5-en.png)
+<!--   ![Add network page](img/working-with-vpcs-5-en.png)  -->
 1. Click on **Submit**.
 1. The *VPCs* page will appear.  The new network will appear in the list of networks in **allocated** state and is now ready for use.
 
 ### Site-to-Site VPN
 
-Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
+Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote office to a VPC, or another cloud provider to a VPC.  An example site-to-site VPN can be found in the how-to article [Create a site-to-site VPN on a VPC](aptum-iaas-create-site-to-site-vpn-on-vpc.md).
 
 1. From the target VPC, find the **Site-to-Site VPNs** item and click the gear menu.
-   ![Site-to-site VPN page](img/working-with-vpcs-6-en.png)
+<!--   ![Site-to-site VPN page](img/working-with-vpcs-6-en.png)  -->
 1. In the top right corner, select **Add site-to-site VPN**.
 1. Fill in the *Add site-to-site VPN* form:
    - **Name this VPN connection:** Name of the VPN connection, likely what this connection is to.
@@ -76,10 +76,10 @@ Site-to-site VPNs offer the capability to interconnect multiple VPCs, a remote o
    - **Passive connection:** Check this box if the remote end has not yet been configured. Only one passive end should exist per site-to-site VPN.
 1. Click on **Submit**.
 1. The **Site-to-site VPNs** tab will appear, and the new VPN will be listed in the **disconnected** state.
-   ![VPN created but not yet connected](img/working-with-vpcs-7-en.png)
+<!--   ![VPN created but not yet connected](img/working-with-vpcs-7-en.png) -->
 1. If necessary, set up the other end of the VPN with the same pre-shared key as this one.
 1. Once the other end of the VPN tunnel has been configured, the state will change to **connected**.
 
 ### Remote Access VPN
 
-A remote access VPN allows you network access to resources within a VPC. For more information, see [Connect to a VPC using remote access VPN (IKEv2)](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).
+A remote access VPN allows you network access to resources within a VPC. For more information, see [Connect to a VPC using remote access VPN (IKEv2)](aptum-iaas-vpn-using-remote-access.md).

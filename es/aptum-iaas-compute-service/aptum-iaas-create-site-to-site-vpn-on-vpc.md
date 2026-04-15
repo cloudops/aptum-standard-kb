@@ -4,7 +4,7 @@ slug: aptum-iaas-crear-vpn-sitio-a-sitio-en-una-vpc
 ---
 
 
-Una VPN de sitio a sitio es útil para interconectar una VPC a una oficina remota, otro centro de datos u otra VPC. Para más detalles, consulta [Gestion de VPC](../cloudstack-compute-service/working-with-vpcs.md).
+Una VPN de sitio a sitio es útil para interconectar una VPC a una oficina remota, otro centro de datos u otra VPC. Para más detalles, consulta [Gestion de VPC](aptum-iaas-compute-service/working-with-vpcs.md).
 
 El siguiente ejemplo ilustra cómo conectar dos VPCs con una VPN de sitio a sitio. Los detalles variarán para sus dispositivos particulares.
 
