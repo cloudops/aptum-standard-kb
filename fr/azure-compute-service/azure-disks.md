@@ -34,15 +34,19 @@ Les disques sont répertoriés sous l'onglet **Disques** de l'environnement Azur
 
      Tapez dans la zone de recherche pour filtrer la liste des disques. Le système recherchera dans les champs de nom du disque, d'état, de type, et d'instance et renvoie tout disque correspondant à la chaîne dans la zone de recherche.
 
-3. **Ajouter un disque**
+3. **Filtrer par groupe de ressources**
+
+     Pour afficher uniquement les instances d'un groupe de ressources spécifique, sélectionnez le groupe souhaité dans le menu contextuel Filtrer.
+
+4. **Ajouter un disque**
 
      Cliquer sur ce bouton ouvrira l'assistant **Ajouter un disque**.
 
-4. **Entrée de disque**
+5. **Entrée de disque**
 
      Chaque entrée comprend le nom du disque, son état \(attaché ou détaché\), le type de disque \(système d'exploitation ou données\) et le type de performance \(HDD, SDD, etc\), ainsi que le nom de l'instance à laquelle le disque est attaché, le cas échéant.
 
-5. **Menu des actions cachées**
+6. **Menu des actions cachées**
 
      Chaque entrée de la liste des disques possède un menu des actions cachées. Cliquez sur le menu des actions cachées pour modifier ou supprimer le disque.
 

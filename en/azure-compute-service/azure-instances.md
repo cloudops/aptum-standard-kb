@@ -32,15 +32,19 @@ Virtual machines are listed under the **Instances** section of the selected Azur
 
     Type in the search box to filter the instance list. The system will search through the instance name, power state, image, the network name, and the subnetwork fields, and returns any instance that matches the string in the search box.
 
-3.  **Add instance**
+3.  **Filter by resource group**
+
+    To display only instances in a specific resource group, select the desired group from the Filter popup menu.
+
+4.  **Add instance**
 
     Clicking this button will open the **Add instance** wizard.
 
-4.  **Instance row**
+5.  **Instance row**
 
     Each row includes the name of the instance, the power state of the instance, the name of the image from which the instance was created, and the details of the network to which it is attached. Click on an entry to navigate to a page with configuration details, graphs of resource consumption, and a list of all operations for that individual instance.
 
-5.  **Hidden Actions menu**
+6.  **Hidden Actions menu**
 
     Each entry in the instance list has a Hidden Actions menu. Click on the Hidden Actions menu to access a list of frequently-used operations for the instance.
 

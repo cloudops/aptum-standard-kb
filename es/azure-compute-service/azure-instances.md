@@ -32,15 +32,19 @@ Las máquinas virtuales se enumeran en la sección **Instancias** del entorno de
 
      Escriba en el cuadro de búsqueda para filtrar la lista de instancias. El sistema buscará en los campos nombre de la instancia, estado de energía, imagen, nombre de la red y subred, y devolverá cualquier instancia que coincida con la cadena en el cuadro de búsqueda.
 
-3. **Agregar instancia**
+3. **Filtrar por grupo de recursos**
+
+     Para mostrar solo las instancias de un grupo de recursos específico, selecciona el grupo deseado en el menú emergente Filtro.
+
+4. **Agregar instancia**
 
      Al hacer clic en este botón se abrirá el asistente **Agregar instancia**.
 
-4. **Entrada de instancia**
+5. **Entrada de instancia**
 
      Cada entrada incluye el nombre de la instancia, el estado de energía de la instancia, el nombre de la imagen a partir de la cual se creó la instancia y los detalles de la red a la que está conectada. Haz clic en una entrada para navegar a una página con detalles de configuración, gráficos de consumo de recursos y una lista de todas las operaciones para esa instancia individual.
 
-5. **Menú de acciones escondidas**
+6. **Menú de acciones escondidas**
 
      Cada entrada en la lista de instancias tiene un menú de acciones escondidas. Haz clic en el menú acciones escondidas para acceder a una lista de operaciones utilizadas con frecuencia para la instancia.
 

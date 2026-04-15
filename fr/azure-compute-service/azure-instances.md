@@ -32,15 +32,19 @@ Les machines virtuelles sont répertoriées dans la section **Instances** de l'e
 
      Tapez dans la zone de recherche pour filtrer la liste d'instances. Le système recherchera le nom de l'instance, l'état d'alimentation, l'image, le nom du réseau et les champs de sous-réseau, et renvoie toute instance correspondant à la chaîne dans la zone de recherche.
 
-3. **Ajouter une instance**
+3. **Filtrer par groupe de ressources**
+
+   Pour afficher uniquement les instances d'un groupe de ressources spécifique, sélectionnez le groupe souhaité dans le menu contextuel Filtrer.
+
+4. **Ajouter une instance**
 
      Cliquer sur ce bouton ouvrira l'assistant **Ajouter une instance**.
 
-4. **Entrée d'instance**
+5. **Entrée d'instance**
 
      Chaque entrée comprend le nom de l'instance, l'état d'alimentation de l'instance, le nom de l'image à partir de laquelle l'instance a été créée et les détails du réseau auquel elle est attachée. Cliquez sur une entrée pour accéder à une page contenant les détails de configuration, des graphiques de consommation des ressources et une liste de toutes les opérations pour cette instance individuelle.
 
-5. **Menu des actions cachées**
+6. **Menu des actions cachées**
 
      Chaque entrée de la liste d'instances possède un menu des actions cachées. Cliquez sur le menu Actdes actions cachées pour accéder à une liste des opérations fréquemment utilisées pour l'instance.
 

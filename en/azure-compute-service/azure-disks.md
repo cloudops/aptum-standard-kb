@@ -34,15 +34,19 @@ Disks are listed under the **Disks** tab of the select Azure environment.
 
     Type in the search box to filter the disk list. The system will search through the disk name, state, type, and instance fields, and returns any disk that matches the string in the search box.
 
-3.  **Add disk**
+3.  **Filter by resource group**
+
+    To display only instances in a specific resource group, select the desired group from the Filter popup menu.
+
+4.  **Add disk**
 
     Clicking this button will open the **Add disk** wizard.
 
-4.  **Disk row**
+5.  **Disk row**
 
     Each row includes the name of the disk, its state \(attached or detached\), the disk type \(OS or data\) and performance type \(HDD, SDD, etc\), and the name of the instance the disk is attached to, if any.
 
-5.  **Hidden Actions menu**
+6.  **Hidden Actions menu**
 
     Each entry in the disk list has a Hidden Actions menu. Click on the Hidden Actions menu to edit or delete the disk.
 
