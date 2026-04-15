@@ -11,7 +11,7 @@ slug: aptum-iaas-gestion-des-vpcs
 
 Pour créer, modifier, ou supprimer un VPC, un compte avec le rôle *Utilisateur* doit être membre de l'environnement qui contient le VPC, et également avoir le rôle d'environnement *Éditeur* ou *Propriétaire* attribué. Un compte doté du rôle *Administrateur* ou supérieur peut créer, modifier ou supprimer des VPC dans un environnement.
 
-Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
+Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un VPC?](../aptum-iaas-compute-service/aptum-iaas-what-is-a-vpc.md).
 
 ### Création d'un VPC
 
@@ -44,19 +44,19 @@ Pour plus d'informations sur les VPCs, veuillez consulter [Qu’est-ce qu’un V
       - **Load Balanced Tier :**  (Par défaut) Similar au "Standard Tier" mais offre en plus la possibilité de faire de la répartition de charge entre plusieurs instances déployées sur ce tier, via des règles de répartition de charge appliquées sur des adresses IP publiques. **Avis : Cette offre réseau ne peut s'appliquer qu'à un seul tier à l'intérieur d'un VPC.**
    - **Paserelle :**  L'adresse IP de la passerelle par défaut pour le tier de réseau.
    - **Masque de sous-réseau :**  Le masque de sous-réseau du tier réseau.
-   - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](cloudstack-securing-your-network.md) pour plus d'informations sur les ACLs.
+   - **ACL :** Liste de contrôle d'accès (ACL) pour la communication entre les tiers au sein du même VPC. Voir [Sécurisation de votre réseau](aptum-iaas-securing-your-network.md) pour plus d'informations sur les ACLs.
       - **default_allow :**  (Par défaut) Permet tout le traffic de/vers un autre tier du VPC.
       - **default_deny  :**  Empêche tout traffic de/vers un autre tier du VPC.
-   ![Page d'ajouter réseau](img/working-with-vpcs-5-fr.png)
+<!--   ![Page d'ajouter réseau](img/working-with-vpcs-5-fr.png) -->
 1. Cliquez sur **Valider**.
 1. La page *VPCs* apparaîtra. Le nouveau réseau apparaîtra dans la liste des réseaux à l'état **alloué** et est maintenant prêt à être utilisé.
 
 ### VPN site-à-site
 
-Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
+Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs, un bureau distant à un VPC, ou un autre fournisseur de cloud à un VPC. Un exemple d'un VPN site-à-site peut être trouvé dans l'article pratique [Créer un VPN site-à-site pour un VPC](../aptum-iaas-compute-service/aptum-iaas-create-site-to-site-vpn-on-vpc.md).
 
 1. À partir du VPC cible, recherchez l'élément **VPNs site-à-site** et cliquez sur l'icône d'engrenage.
-   ![Page VPNs site-à-site](img/working-with-vpcs-6-fr.png)
+<!--   ![Page VPNs site-à-site](img/working-with-vpcs-6-fr.png) -->
 1. Dans le coin supérieur droit, sélectionnez **Ajouter VPN site-à-site**.
 1. Remplissez le formulaire *Ajouter VPN site-à-site* :
    - **Nom de la connexion:**  Nom de la connexion VPN, possiblement à quoi cette connexion est-elle.
@@ -76,10 +76,10 @@ Les VPN de site-à-site offrent la possibilité d'interconnecter plusieurs VPCs,
    - **Connexion passive :**  Cochez cette case si l'extrémité distante n'a pas encore été configurée. Une seule extrémité passive doit exister par VPN de site à site.
 1. Cliquez sur **Valider**.
 1. L'onglet **VPN site-à-site** apparaîtra, et le nouveau VPN sera répertorié dans l'état **déconnecté**.
-   ![VPN créé mais pas encore connecté](img/working-with-vpcs-7-fr.png)
+<!--   ![VPN créé mais pas encore connecté](img/working-with-vpcs-7-fr.png) -->
 1. Si nécessaire, configurez l'autre extrémité du VPN avec la même clé pré-partagée que celle-ci.
 1. Une fois que l'autre extrémité du tunnel VPN a été configurée, l'état passera à **connecté**.
 
 ### Accès VPN à distance
 
-Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez [Connexion à un VPC par une connexion VPN sécurisée](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).
+Un VPN d'accès à distance vous permet d'accéder au réseau aux ressources d'un VPC. Pour plus d'informations, consultez [Connexion à un VPC par une connexion VPN sécurisée](../aptum-iaas-compute-service/aptum-iaas-vpn-using-remote-access.md).

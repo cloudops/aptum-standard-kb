@@ -18,7 +18,7 @@ Cet fonction est utile pour automatiser l'infrastructure virtuelle dans Aptum Ia
 
 ```
 [core]
-profile = cloudstack-service
+profile = aptum-iaas-service
 asyncblock = true
 paramcompletion = true
 
@@ -27,7 +27,7 @@ color = true
 prompt = >
 display = json
 
-[cloudstack-service]
+[aptum-iaas-service]
 url = <URL_de_API>
 timeout = 3600
 verifysslcert = true
@@ -46,12 +46,12 @@ Lancez la CLI avec la commande `cloudmonkey`, puis utilisez la commande CLI `syn
 user1$ cloudmonkey
 Apache CloudStack cloudmonkey 5.3.3. Type help or ? to list commands.
 
-Using management server profile: cloudstack-service
+Using management server profile: aptum-iaas-service
 
-(cloudstack-service) > sync
+(aptum-iaas-service) > sync
 247 APIs discovered and cached
-(cloudstack-service) > list virtualmachines projectid=asd-fc05-4072-b0a3-608e33feb7b0
-(cloudstack-service) > list virtualmachines projectid=asd-fc05-4072-b0a3-608e33feb7b0 filter=name,id
+(aptum-iaas-service) > list virtualmachines projectid=asd-fc05-4072-b0a3-608e33feb7b0
+(aptum-iaas-service) > list virtualmachines projectid=asd-fc05-4072-b0a3-608e33feb7b0 filter=name,id
 ```
 
 

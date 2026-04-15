@@ -28,13 +28,13 @@ The user may supply the system with a public SSH key to install on the instance 
 
 Also, during configuration, a cost estimator will appear at the bottom of the page. Listed in the cost estimator are the selected configuration options and their individual costs, as well as an hourly and monthly estimated total. It will update dynamically as you select the desired configuration for your instance.
 
-![Screenshot of the Add Instance page with the cost estimator displayed](img/cloudstack-add-an-instance.png)
+![Screenshot of the Add Instance page with the cost estimator displayed](img/aptum-iaas-add-an-instance.png)
 
 ## Instance list
 
 Instances are listed under the **Instances** section of the selected Aptum IaaS environment.
 
-![A screenshot of the Aptum IaaS Instances page, with numbered dots indicating features of interest](img/cloudstack-instances-numdot.png)
+![A screenshot of the Aptum IaaS Instances page, with numbered dots indicating features of interest](img/aptum-iaas-instances-numdot.png)
 
 1.  **List of Aptum IaaS instances**
 

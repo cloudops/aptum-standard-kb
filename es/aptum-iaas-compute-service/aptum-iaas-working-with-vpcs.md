@@ -11,7 +11,7 @@ slug: aptum-iaas-gestion-de-vpc
 
 Para crear, modificar o eliminar una VPC, una cuenta con el rol *Usuario* debe ser miembro del entorno que contiene la VPC y también tener asignado el rol de entorno *Editor* o *Propietario*. Una cuenta con el rol *Administrador* o superior puede crear, modificar o eliminar VPC en un entorno.
 
-Para obtener más información sobre las VPC, consulte [Qué es una VPC](../cloudstack-compute-service/cloudstack-what-is-a-vpc.md).
+Para obtener más información sobre las VPC, consulte [Qué es una VPC](aptum-iaas-what-is-a-vpc.md).
 
 ### Crear una nueva VPC
 
@@ -44,19 +44,19 @@ Para obtener más información sobre las VPC, consulte [Qué es una VPC](../clou
        - **Nivel de equilibrio de carga:** (predeterminado) Incluye las funciones del nivel estándar y también ofrece la capacidad de equilibrar la carga del tráfico en varias instancias dentro de ese nivel, a través de reglas que se aplican en una dirección IP pública. **Nota: Solo un único nivel dentro de una VPC puede tener esta oferta.**
     - **Puerta de enlace:** La dirección IP de la puerta de enlace predeterminada para crear el nivel de red.
     - **Máscara de red:** La máscara de subred del nivel de red que se creará.
-    - **ACL:** lista de control de acceso (ACL) para la comunicación entre niveles dentro de la misma VPC. Consulta [Asegurar la red](cloudstack-securing-your-network.md)) para obtener más información sobre las ACL.
+    - **ACL:** lista de control de acceso (ACL) para la comunicación entre niveles dentro de la misma VPC. Consulta [Asegurar la red](aptum-iaas-securing-your-network.md)) para obtener más información sobre las ACL.
        - **default_allow:** (Predeterminado) Permitir todo tipo de tráfico desde/hacia otros niveles en la VPC.
        - **default_deny:** Denegar todo tipo de tráfico desde/hacia otros niveles en la VPC.
-    ![Agregar página de red](img/working-with-vpcs-5-en.png)
+<!--    ![Agregar página de red](img/working-with-vpcs-5-en.png) -->
 1. Haz clic en **Aplicar**.
 1. Aparecerá la página *VPC*. La nueva red aparecerá en la lista de redes en estado **asignado** y ahora está lista para usarse.
 
 ### VPN de sitio a sitio
 
-Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](../cloudstack-compute-service/cloudstack-create-site-to-site-vpn-on-vpc.md).
+Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una oficina remota a una VPC u otro proveedor de nube a una VPC. Puedes encontrar un ejemplo de VPN de sitio a sitio en el artículo de procedimientos [Crear una VPN de sitio a sitio en una VPC](aptum-iaas-create-site-to-site-vpn-on-vpc.md).
 
 1. En la VPC de destino, busca el elemento **VPN de sitio a sitio** y haz clic en el menú de ajustes.
-   ![La página de VPN de sitio a sitio](img/working-with-vpcs-6-en.png)
+<!--   ![La página de VPN de sitio a sitio](img/working-with-vpcs-6-en.png) -->
 1. En la esquina superior derecha, selecciona **Agregar VPN de sitio a sitio**.
 1. Complete el formulario *Agregar VPN de sitio a sitio*:
     - **Nombre de esta conexión VPN:** Nombre de la conexión VPN, probablemente para qué es esta conexión.
@@ -76,10 +76,10 @@ Las VPN de sitio a sitio ofrecen la capacidad de interconectar varias VPC, una o
     - **Conexión pasiva:** Marque esta casilla si aún no se ha configurado el extremo remoto. Solo debe existir un extremo pasivo por VPN de sitio a sitio.
 1. Haz clic en **Aplicar**.
 1. Aparecerá la pestaña **VPN de sitio a sitio** y la nueva VPN aparecerá en el estado **Desconectado**.
-   ![VPN creada pero aún no conectada](img/working-with-vpcs-7-en.png)
+<!--   ![VPN creada pero aún no conectada](img/working-with-vpcs-7-en.png) -->
 1. Si es necesario, configure el otro extremo de la VPN con la misma clave precompartida que esta.
 1. Una vez que se haya configurado el otro extremo del túnel VPN, el estado cambiará a **Conectado**.
 
 ### VPN de acceso remoto
 
-Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](../cloudstack-compute-service/cloudstack-vpn-using-remote-access.md).
+Una VPN de acceso remoto permite acceder a la red a los recursos dentro de una VPC. Para obtener más información, consulte [Conectarse a una VPC mediante VPN de acceso remoto (IKEv2)](aptum-iaas-vpn-using-remote-access.md).
