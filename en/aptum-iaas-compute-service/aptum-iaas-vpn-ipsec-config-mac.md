@@ -1,5 +1,5 @@
 ---
-title: "Aptum IaaS:  mascOS IPSec VPN Client Configuration"
+title: "Aptum IaaS:  macOS IPSec VPN Client Configuration"
 slug: aptum-iaas-ipsec-client-config-mac
 ---
 
