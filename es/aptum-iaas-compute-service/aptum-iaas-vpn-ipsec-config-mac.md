@@ -28,6 +28,6 @@ Opcionalmente, se puede habilitar el módulo VPN en la barra de menús para acce
 1. Abra *Configuración del sistema* > *Barra de menús*.
 2. Desplácate hasta el control de la barra de menús *VPN*.
 3. Haz clic en el interruptor para mostrar el módulo VPN en la barra de menús.
-   ¡[Mostrar en la barra de menús](img/Mac-7-Show-In-Menu-Bar.png)
+   ![Mostrar en la barra de menús](img/Mac-7-Show-In-Menu-Bar.png)
 3. Ahora puedes conectarte a la VPN desde la barra de menús.
-   ¡[Conectar desde la barra de menús](img/Mac-8-Connect-From-Menu-Bar.png)
+   ![Conectar desde la barra de menús](img/Mac-8-Connect-From-Menu-Bar.png)
