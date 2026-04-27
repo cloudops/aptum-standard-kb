@@ -20,6 +20,10 @@ This operating system provides a native IPSec VPN client. Here are the steps to 
    - **Shared secret**: Enter the pre-shared key from the *Remote access VPN* page
    - **Group name:** Leave this blank
    ![VPN configuration](img/Mac-5-Configuration.png)
+1. Click on *Options* in the sidebar.
+1. Click the toggle for *Send all traffic over VPN connection* to enable this option.
+1. Click on *DNS* in the sidebar.
+1. Click on the `+` icon and enter the IP address of one or more valid name servers.  The Google name server at `8.8.8.8` should work.
 1. Click *Create*.
 1. The new VPN is now listed on the *VPN* page.  Click the toggle switch to connect the VPN.
    ![VPN List](img/Mac-6-VPN-List.png)
