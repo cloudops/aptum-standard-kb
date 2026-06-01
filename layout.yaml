@@ -9,7 +9,7 @@ categories:
       - environments.md
       - create-a-new-environment.md
       - glossary.md
-      - need-more-help.md
+#      - need-more-help.md
 - category: aptum-iaas-compute-service
   icon: fa fa-cloud
   featured: true
