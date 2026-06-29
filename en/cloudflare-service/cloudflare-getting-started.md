@@ -1,9 +1,8 @@
 ---
-author: "Cloudflare: Getting started"
-publisher: cloudflare-getting-started
+title: "Cloudflare: Getting started"
+slug: cloudflare-getting-started
 ---
 
-# Cloudflare: Getting started
 
 Aptum is retiring our legacy DNS platform and moving all services to Cloudflare, which offers improved performance and reliability. Your DNS zones \(domain names\) and their records have already been migrated - no DNS data has been lost, and your current DNS service is unaffected while both systems are running.
 
