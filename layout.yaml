@@ -65,6 +65,7 @@ categories:
   icon: fa fa-cloud
   featured: true
   articles:
+      - cloudflare-getting-started.md
       - cloudflare-dns.md
       - cloudflare-add-a-domain.md
       - cloudflare-add-a-dns-record.md
