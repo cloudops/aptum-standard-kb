@@ -10,7 +10,7 @@ This article provides information about an important change to your DNS services
 
 If you are the technical lead but did not receive credentials, please coordinate with your account’s primary contact. Your primary contact on file has received an email with access to the Aptum Portal, where your DNS services now live. The email will also indicate the date of the migration deadline.
 
-If you haven't received it or need access for additional team members, please let us know by contacting your account manager or our support team at [support@aptum.com](mailto:support@aptum.com).
+If you haven't received it or need access for additional team members, please let us know by contacting your account manager or our support team at support@aptum.com.
 
 ## What we've already done
 
@@ -90,6 +90,6 @@ Our legacy DNS platform will be shut down on the date specified in the email tha
 
 ## We are here to help
 
-The Aptum Customer Care team is available to assist you through this process. If you haven't received your portal access email, need a hand with name servers or DNSSEC, or have any questions, contact us at [support@aptum.com](mailto:support@aptum.com). You can also reference our migration documentation here: [https://portal.aptum.com/hc/cloudflare-service](https://portal.aptum.com/hc/cloudflare-service)
+The Aptum Customer Care team is available to assist you through this process. If you haven't received your portal access email, need a hand with name servers or DNSSEC, or have any questions, contact us at support@aptum.com. You can also reference our migration documentation here: [https://portal.aptum.com/hc/cloudflare-service](https://portal.aptum.com/hc/cloudflare-service)
 
 Thank you for your continued partnership.
