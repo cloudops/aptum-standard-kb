@@ -14,7 +14,7 @@ If you haven't received it or need access for additional team members, please le
 
 ## What we've already done
 
-Your DNS zones and their records have been imported into the new platform. Your existing DNS service continues to run unchanged until the migration deadline below, so both systems are live in parallel and nothing breaks while you migrate. The email that was sent to your primary contact includes a link to set up access to the new Aptum portal, where your DNS now resides.
+Your DNS zones and their records have been imported into the new platform. Your existing DNS service continues to run unchanged while you migrate, so both systems are live in parallel and nothing breaks during the migration. The email that was sent to your primary contact includes a link to set up access to the new Aptum portal, where your DNS now resides.
 
 **Important:** The automatic import copies most records, but it does not always capture everything. TXT records \(SPF, DKIM, DMARC\), some mail \(MX\) configurations, and less common record types can be missed or imported differently. Please treat the imported zone as a starting point to be verified, not a finished copy. The steps below include a verification step for exactly this reason.
 
@@ -81,12 +81,12 @@ Follow these steps to update your domain registrar and complete the DNS migratio
 
     If anything looks wrong, you can safely revert by pointing the name servers back to your current ones while both platforms are still running, then contact us and we'll help sort it out.
 
-11. You will need to repeat steps 4 through 10 for every domain with the **Pending name servers** status in the `Imported-YYYY-MM-DD` environment.
+11. You will need to repeat steps 4 through 10 for every domain with the **Pending name servers** status in the `imported-YYYY-MM-DD` environment.
 
 
 ## Deadline
 
-Our legacy DNS platform will be shut down on the date specified in the email that is specified in the invitation email.  After that date, any domain still pointing to the old name servers will stop resolving, meaning websites, email, and any other services tied to those domains will stop working. Please complete your updates before then to avoid interruption. We'd recommend not leaving it to the last day, so there's time to catch any issues while both systems are still running.
+Please complete your nameserver updates by the date in your email. Our legacy DNS platform is being retired. Once it is switched off, any domain still pointing to the old nameservers will stop resolving, meaning websites, email, and any other services tied to those domains will stop working. We'd recommend not leaving it to the last day, so there's time to catch any issues while both systems are still running.
 
 ## We are here to help
 
