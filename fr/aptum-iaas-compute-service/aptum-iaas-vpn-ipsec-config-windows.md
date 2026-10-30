@@ -26,6 +26,15 @@ Les instructions suivantes s'appliquent à Microsoft Windows 10 utilisant son cl
 5. Cliquez sur *Sauvegarder*. La page *VPN* s'affichera et la nouvelle connexion apparaîtra dans la liste des connexions.
 ![Sélectionner la connexion](img/Win-8-Select-Connection.png)
 
+#### Activer le tunneling fractionné et configurer le routage
+
+1. Ouvrez une fenêtre *PowerShell*.
+1. Activez le tunneling fractionné : `Set-VpnConnection -Alluserconnection -Name "acme-vpn" -SplitTunneling $true`
+   - Pour l'argument `Name`, utilisez l'identifiant réseau que vous avez déterminé à l'étape 3, par exemple `acme-vpn`.
+1. Ajoutez la route : `Add-VpnConnectionRoute -ConnectionName "acme-vpn" -DestinationPrefix "10.0.0.0/16" -PassThru`
+   - Pour l'argument `ConnectionName`, utilisez l'identifiant réseau que vous avez déterminé à l'étape 3, par exemple `acme-vpn`.
+   - Pour l'argument `DestinationPrefix`, utilisez le CIDR de votre VPC tel qu'il apparaît dans le portail Aptum. 1. Ouvrez **Connexions réseau**, cliquez avec le bouton droit sur la connexion VPN et accédez à **Propriétés** > **Réseau** > **Protocole Internet version 4 (TCP/IPv4)** > **Propriétés** > **Avancé**.
+1. Décochez l'option *Utiliser la passerelle par défaut sur le réseau distant*.
 
 #### Établir une connexion VPN
 1. Allez à *Menu Démarrer* > *Paramètres* > *Réseau et Internet* > *VPN*.

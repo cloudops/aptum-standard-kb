@@ -25,6 +25,15 @@ The following instructions apply to Microsoft Windows 10 using its native VPN cl
 5. Click *Save*.  The *VPN* page will appear and the new connection will appear in the list of connections.
 ![Select Connection](img/Win-8-Select-Connection.png)
 
+#### Enable split tunneling and configure routing
+1. Open a *PowerShell* window.
+1. Enable split tunneling: `Set-VpnConnection -Alluserconnection -Name "acme-vpn" -SplitTunneling $true`
+   - For the `Name` argument, use the network identifier you identified in step 3, e.g. `acme-vpn`.
+1. Add the route: `Add-VpnConnectionRoute -ConnectionName "acme-vpn" -DestinationPrefix "10.0.0.0/16" -PassThru`
+   - For the `ConnectionName` argument, use the network identifier you identified in step 3, e.g. `acme-vpn`.
+   - For the `DestinationPrefix` argument, use the CIDR of your VPC as displayed in Aptum Portal.
+1. Open **Network Connections**, right-click the VPN connection, and navigate to **Properties** > **Networking** > **Internet Protocol Version 4 (TCP/IPv4)** > **Properties** > **Advanced**.
+1. Uncheck the option *Use default gateway on remote network*.
 
 #### Initiate VPN connection
 1. Navigate to *Start menu* > *Settings* > *Network & Internet* > *VPN*.
